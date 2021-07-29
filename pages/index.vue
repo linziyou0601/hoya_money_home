@@ -12,13 +12,21 @@
         src="/adaptive_icon_foreground.png"
         max-width="200"
         contain
-        class="mx-auto"
+        class="mx-auto mt-10"
       />
       <div class="text-h3 font-weight-bold mb-8">{{ $t('hoya_money') }}</div>
 
       <div class="text-h6 mb-8">{{ $t('hoya_money_intro') }}</div>
 
-      <v-btn color="primary" rounded large class="text-h6 px-8" outlined>
+      <v-btn
+        color="primary"
+        rounded
+        large
+        class="text-h6 px-8 mt-10"
+        outlined
+        target="_blank"
+        href="https://play.google.com/store/apps/details?id=com.hoya_money"
+      >
         {{ $t('download') }}
       </v-btn>
     </v-col>
