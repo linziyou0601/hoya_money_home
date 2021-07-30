@@ -58,8 +58,39 @@ export default {
     'All data used in this service is only stored on your personal device (Android), and provides you with the function of uploading to Google cloud storage to ensure that your have a chance of recovery in the event of loss, replacement or unexplained data damage.',
   policy_4_title: '4. Amendment of this statement',
   policy_4_content:
-    'The statement of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software.',
+    'The statement of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: July 30, 2021',
   policy_5_title: '5. Contact us',
   policy_5_content:
     'If you have any questions or suggestions about the privacy policy, please feel free to contact us at “support@linziyou.info”.',
+
+  terms_of_service_page: 'Terms of Serivce',
+  terms_of_service_preface:
+    'Thank you for using Hoya Money! These Privacy Policy apply to the use of the software and various services (hereinafter also referred as “this service”) provided by the service developer (hereinafter also referred as “we”, “us” or “our”). When you use this service, it means that you have agreed to these terms.',
+  terms_of_service_1_title: '1. Intellectual property rights',
+  terms_of_service_1_content_1:
+    'Any information provided in this service, including but not limited to the content of the service information, programming codes, text, artwork, icons, images, and trademarks, belongs to us or other third parties with rights and is protected by the laws of the Republic of China (Taiwan). You may not reproduce, copy, sell, trade, resell the content of this service or any part of it for any purpose in any way without obtaining our prior written permission. And agree not to remove or change any anti-copy measures, or other rights protection measures (including but not limited to patent rights, trademark rights) or marks contained in the content of this service. You also must not use any automatic tools or methods (including but not limited to malicious software, crawlers) to collect or destroy the information and data of this service, or interfere with or infringe the normal operation of the service. However, you can use the information content of this service on your own within the scope of non-commercial, household and personal use, but you should still ensure that our intellectual property rights are not infringed by third parties.',
+  terms_of_service_1_content_2:
+    'We only authorize you to use this service, and do not transfer the content, text files, and any encoded intellectual property rights provided by this service to you. For the avoidance of doubt, all rights that we did not expressly grant you in this clause are reserved by us.',
+  terms_of_service_2_title: '2. In-app purchases and refunds',
+  terms_of_service_2_content_1:
+    'The related transactions of this service is handled by Google Play Service of Google Inc. If you agree to the purchase from Google Play Service, it means that you personally agree to use the service for consumption, and to comply with the personal consumption mechanism settings and agreements between you and the service provider. We do not involve the payment relationship between you and the service provider and related rights and obligations.',
+  terms_of_service_2_content_2:
+    'The in-app purchases or subscription services provided by this service are digital content that is the supply of digital content which is not supplied on a tangible medium, or online services which would be fully performed once begun, with the consumer’s prior consent. Pursuant to the “The Regulations on Reasonable Matters as Exceptions to Rescind the Distance Sales” announced by the Consumer Protection Committee of the Executive Yuan, the application of the unconditional cancellation of the seven-day hesitation period of the Consumer Protection Act has been excluded.',
+  terms_of_service_2_content_3:
+    'If you purchase through Google Play Service, please refer to and follow the refund policy of the service provider. In principle, consumers can apply for a refund through Google Play within 48 hours after purchase.',
+  terms_of_service_2_content_4:
+    'You can cancel this service at any time during the subscription period through Google Play, and you can cancel the subscription at the end of the current billing cycle. If you cancel this service on the day before or on the day of payment day, the handling fee of procedure for canceling the subscription will be completed at the end of the next billing cycle. After canceling the subscription service, you can still use the service during the remaining valid days of the paid service. Cancellation of the subscription cannot retroactively refund the subscription fee, and the previously deducted subscription fee cannot be refunded in proportion to the cancellation date. However, deleting this App will not cause the subscription service to be cancelled. Please make sure to cancel the subscription according to the above process.',
+  terms_of_service_3_title: '3. Disclaimer',
+  terms_of_service_3_content_1:
+    'In the process of preparing and collecting the information provided by this service, we have tried our best to adopt a cautious attitude, but we still remind you that Except for the circumstances attributable to us, we will not bear contractual liability for the damage caused by the provision of information due to any errors or omissions in the information or due to your reliance on the service or the instructions on the interface.',
+  terms_of_service_3_content_2:
+    'We will not be liable for damages to your personal money record data. Please be sure to back up your data regularly.',
+  terms_of_service_3_content_3:
+    'This service does not bear any guarantee responsibility for each service. This service does not guarantee that the services will not be interrupted, and you agree to bear all the risks of using this service and any damage that may occur.',
+  terms_of_service_4_title: '4. Amendment of this terms of this service',
+  terms_of_service_4_content:
+    'The terms of this service of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: July 30, 2021',
+  terms_of_service_5_title: '5. Contact us',
+  terms_of_service_5_content:
+    'If you have any questions or suggestions about the terms of service, please feel free to contact us at “support@linziyou.info”.',
 }

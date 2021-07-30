@@ -4,7 +4,7 @@
     <v-col cols="12" sm="10" md="8">
       <div class="text-h4 font-weight-bold mb-8 text-center">
         <span :class="`pb-3 px-3 title_border_bottom ${borderColor}`">
-          {{ $t('privacy_policy_page') }}
+          {{ $t('terms_of_service_page') }}
         </span>
       </div>
       <div
@@ -27,56 +27,65 @@
 export default {
   data() {
     return {
-      pageTitle: this.$t('privacy_policy_page'),
+      pageTitle: this.$t('terms_of_service_page'),
       textlines: [
         {
-          key: 'policy_preface',
+          key: 'terms_of_service_preface',
           size: 'h7',
         },
         {
-          key: 'policy_1_title',
+          key: 'terms_of_service_1_title',
           size: 'h6',
         },
         {
-          key: 'policy_1_content',
-          size: 'h7',
-        },
-        {
-          key: 'policy_2_title',
-          size: 'h6',
-        },
-        {
-          key: 'policy_2_content',
+          key: 'terms_of_service_1_content',
           size: 'h7',
           children: [
-            'policy_2_content_1',
-            'policy_2_content_2',
-            'policy_2_content_3',
-            'policy_2_content_4',
+            'terms_of_service_1_content_1',
+            'terms_of_service_1_content_2',
           ],
         },
         {
-          key: 'policy_3_title',
+          key: 'terms_of_service_2_title',
           size: 'h6',
         },
         {
-          key: 'policy_3_content',
+          key: 'terms_of_service_2_content',
+          size: 'h7',
+          children: [
+            'terms_of_service_2_content_1',
+            'terms_of_service_2_content_2',
+            'terms_of_service_2_content_3',
+            'terms_of_service_2_content_4',
+          ],
+        },
+        {
+          key: 'terms_of_service_3_title',
+          size: 'h6',
+        },
+        {
+          key: 'terms_of_service_3_content',
+          size: 'h7',
+          children: [
+            'terms_of_service_3_content_1',
+            'terms_of_service_3_content_2',
+            'terms_of_service_3_content_3',
+          ],
+        },
+        {
+          key: 'terms_of_service_4_title',
+          size: 'h6',
+        },
+        {
+          key: 'terms_of_service_4_content',
           size: 'h7',
         },
         {
-          key: 'policy_4_title',
+          key: 'terms_of_service_5_title',
           size: 'h6',
         },
         {
-          key: 'policy_4_content',
-          size: 'h7',
-        },
-        {
-          key: 'policy_5_title',
-          size: 'h6',
-        },
-        {
-          key: 'policy_5_content',
+          key: 'terms_of_service_5_content',
           size: 'h7',
         },
       ],

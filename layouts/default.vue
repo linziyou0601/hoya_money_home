@@ -110,6 +110,12 @@
           >
             {{ $t('privacy_policy_page') }}
           </a>
+          <a
+            class="text-decoration-none grey--text mx-2"
+            :href="`${localePath({ name: 'terms_of_service' })}`"
+          >
+            {{ $t('terms_of_service_page') }}
+          </a>
         </div>
 
         <div class="mt-10 mb-3">
@@ -127,7 +133,7 @@ export default {
     return {
       pDrawer: false,
       tabValue: 0,
-      titlePrefix: 'Hoya記帳',
+      titlePrefix: this.$t('hoya_money'),
       pageTitle: '',
     }
   },
@@ -152,6 +158,12 @@ export default {
           title: this.$t('privacy_policy_page'),
           link: this.localePath({ name: 'privacy_policy' }),
           name: `privacy_policy___${this.$i18n.locale}`,
+          icon: 'mdi-script-text',
+        },
+        {
+          title: this.$t('terms_of_service_page'),
+          link: this.localePath({ name: 'terms_of_service' }),
+          name: `terms_of_service___${this.$i18n.locale}`,
           icon: 'mdi-script-text',
         },
       ]
