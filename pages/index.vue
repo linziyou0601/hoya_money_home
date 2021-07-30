@@ -6,7 +6,7 @@
       sm="8"
       md="6"
       class="text-center"
-      style="height: calc(100vh - 88px)"
+      style="min-height: calc(100vh - 88px)"
     >
       <v-img
         src="/adaptive_icon_foreground.png"
@@ -32,7 +32,7 @@
     </v-col>
 
     <!-- 功能 -->
-    <v-col cols="12" class="text-center">
+    <v-col cols="12" class="text-center mt-10">
       <div class="text-h4 font-weight-bold mb-8">
         <span :class="`pb-3 px-3 title_border_bottom ${borderColor}`">
           {{ $t('features') }}

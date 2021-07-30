@@ -1,14 +1,57 @@
 <template>
   <v-app dark>
-    <v-app-bar app class="content_background" flat>
-      <v-spacer />
-      <v-avatar color="accent" size="48" style="border-radius: 12%">
-        <v-avatar color="content_background" rounded size="44">
+    <!-- 小螢幕顯示 -->
+    <v-navigation-drawer
+      v-model="drawer"
+      color="content_background"
+      class="d-block d-sm-none"
+      app
+    >
+      <!-- 上方LOGO -->
+      <v-list-item class="px-2">
+        <v-list-item-avatar>
           <v-img src="/adaptive_icon_foreground.png" alt="Logo" />
-        </v-avatar>
-      </v-avatar>
+        </v-list-item-avatar>
+        <v-list-item-title>{{ $t('hoya_money') }}</v-list-item-title>
+        <v-btn icon @click.stop="drawer = !drawer">
+          <v-icon>mdi-chevron-left</v-icon>
+        </v-btn>
+      </v-list-item>
+      <v-divider></v-divider>
 
-      <v-tabs v-model="tabValue" centered>
+      <!-- 下方按鈕 -->
+      <v-list dense>
+        <v-list-item
+          v-for="(link, index) in links"
+          :key="index"
+          @click="$router.push({ name: link.name })"
+        >
+          <v-list-item-icon>
+            <v-icon>{{ link.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content>
+            <v-list-item-title>{{ $t(link.title) }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <v-app-bar app class="content_background" flat>
+      <!-- 小螢幕顯示 -->
+      <v-app-bar-nav-icon class="d-block d-sm-none" @click="drawer = !drawer" />
+
+      <!-- 大螢幕顯示 -->
+      <v-spacer />
+      <v-avatar
+        color="content_background"
+        size="48"
+        style="border-radius: 12%"
+        class="d-none d-sm-block"
+      >
+        <v-img src="/adaptive_icon_foreground.png" alt="Logo" />
+      </v-avatar>
+      <v-tabs v-model="tabValue" centered class="d-none d-sm-block">
         <v-tab
           v-for="(link, index) in links"
           :key="index"
@@ -18,18 +61,24 @@
         </v-tab>
       </v-tabs>
 
+      <!-- 全顯示 -->
       <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">
         <v-icon>mdi-lightbulb{{ $vuetify.theme.dark ? '-off' : '' }}</v-icon>
       </v-btn>
-
-      <v-btn
-        v-for="locale in availableLocales"
-        :key="locale.code"
-        :to="switchLocalePath(locale.code)"
-        text
-        >{{ locale.name }}</v-btn
-      >
-      <v-spacer />
+      <v-menu offset-y :rounded="rounded">
+        <template #activator="{ on }">
+          <v-btn icon v-on="on"><v-icon>mdi-translate</v-icon></v-btn>
+        </template>
+        <v-list>
+          <v-list-item
+            v-for="locale in availableLocales"
+            :key="locale.code"
+            :to="switchLocalePath(locale.code)"
+          >
+            <v-list-item-title>{{ locale.name }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </v-app-bar>
 
     <v-main class="accent mb-10">
@@ -76,6 +125,7 @@
 export default {
   data() {
     return {
+      pDrawer: false,
       tabValue: 0,
       titlePrefix: 'Hoya記帳',
       pageTitle: '',
@@ -96,11 +146,13 @@ export default {
           title: this.$t('home_page'),
           link: this.localePath({ name: 'index' }),
           name: `index___${this.$i18n.locale}`,
+          icon: 'mdi-home',
         },
         {
           title: this.$t('privacy_policy_page'),
           link: this.localePath({ name: 'privacy_policy' }),
           name: `privacy_policy___${this.$i18n.locale}`,
+          icon: 'mdi-script-text',
         },
       ]
     },
@@ -114,14 +166,28 @@ export default {
         ? 'Get it on Google Play'
         : 'Google Play立即下載'
     },
+    drawer: {
+      get() {
+        return this.pDrawer
+      },
+      set(val) {
+        this.loadTabValue()
+        this.pDrawer = val
+      },
+    },
   },
   mounted() {
-    this.tabValue = this.links.findIndex(
-      (element) => element.name === this.$route.name
-    )
+    this.loadTabValue()
   },
   created() {
     this.$nuxt.$on('pageTitle', (data) => (this.pageTitle = data))
+  },
+  methods: {
+    loadTabValue() {
+      this.tabValue = this.links.findIndex(
+        (element) => element.name === this.$route.name
+      )
+    },
   },
 }
 </script>
