@@ -10,7 +10,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s',
-    title: 'hoya_money_home',
+    title: 'Hoya記帳',
     htmlAttrs: {
       lang: 'zh-tw',
     },
@@ -51,7 +51,7 @@ export default {
     langDir: '~/locales/',
     locales: [ 
       { code: 'en', iso: 'en-US', file: 'en.js', name: 'English', },
-      { code: 'zh_TW', iso: 'zh-TW', file: 'zh_TW.js', name: '正體中文', },
+      { code: 'zh_TW', iso: 'zh-TW', file: 'zh_TW.js', name: '中文', },
     ],
     vueI18n: {
       fallbackLocale: 'zh_TW',

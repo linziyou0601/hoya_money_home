@@ -81,13 +81,13 @@
       </v-menu>
     </v-app-bar>
 
-    <v-main class="accent mb-10">
-      <v-container class="mt-5">
+    <v-main class="accent">
+      <v-container>
         <nuxt class="pa-8" />
       </v-container>
     </v-main>
 
-    <v-footer :absolute="!fixed" color="content_background" app padless>
+    <v-footer color="content_background" padless>
       <v-col cols="12" class="text-center">
         <div class="my-3">
           <a
@@ -155,10 +155,16 @@ export default {
           icon: 'mdi-home',
         },
         {
+          title: this.$t('docs_page'),
+          link: this.localePath({ name: 'documents' }),
+          name: `documents___${this.$i18n.locale}`,
+          icon: 'mdi-book-open-variant',
+        },
+        {
           title: this.$t('privacy_policy_page'),
           link: this.localePath({ name: 'privacy_policy' }),
           name: `privacy_policy___${this.$i18n.locale}`,
-          icon: 'mdi-script-text',
+          icon: 'mdi-security',
         },
         {
           title: this.$t('terms_of_service_page'),

@@ -1,6 +1,5 @@
 <template>
   <v-row justify="center" align="center">
-    <!-- 擷圖 -->
     <v-col cols="12" sm="10" md="8">
       <div class="text-h4 font-weight-bold mb-8 text-center">
         <span :class="`pb-3 px-3 title_border_bottom ${borderColor}`">
