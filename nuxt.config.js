@@ -44,6 +44,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     'nuxt-i18n',
+    '@nuxtjs/google-gtag',
   ],
 
   i18n: {
@@ -56,6 +57,16 @@ export default {
     vueI18n: {
       fallbackLocale: 'zh_TW',
     }
+  },
+
+  'google-gtag':{
+    id: 'G-7W1GFW6X49',
+    config:{
+      anonymize_ip: true, 
+      send_page_view: false,
+    },
+    debug: true,
+    disableAutoPageTrack: false
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
