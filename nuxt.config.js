@@ -20,6 +20,25 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        hid: 'gtm-script1',
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-7W1GFW6X49',
+        defer: true
+      },
+      {
+        hid: 'gtm-script2',
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-7W1GFW6X49');
+        `,
+        type: 'text/javascript',
+        charset: 'utf-8'
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -44,7 +63,6 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     'nuxt-i18n',
-    '@nuxtjs/google-gtag',
   ],
 
   i18n: {
@@ -57,16 +75,6 @@ export default {
     vueI18n: {
       fallbackLocale: 'zh_TW',
     }
-  },
-
-  'google-gtag':{
-    id: 'G-7W1GFW6X49',
-    config:{
-      anonymize_ip: true, 
-      send_page_view: false,
-    },
-    debug: true,
-    disableAutoPageTrack: false
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
