@@ -14,7 +14,7 @@
         </v-list-item-avatar>
         <v-list-item-title>{{ $t('hoya_money') }}</v-list-item-title>
         <v-btn icon @click.stop="drawer = !drawer">
-          <v-icon>mdi-chevron-left</v-icon>
+          <fa :icon="['fas', 'chevron-left']" class="icon-3" />
         </v-btn>
       </v-list-item>
       <v-divider></v-divider>
@@ -27,11 +27,11 @@
           @click="$router.push({ name: link.name })"
         >
           <v-list-item-icon>
-            <v-icon>{{ link.icon }}</v-icon>
+            <fa :icon="link.icon" class="icon-3" />
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>{{ $t(link.title) }}</v-list-item-title>
+            <v-list-item-title>{{ link.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -39,7 +39,9 @@
 
     <v-app-bar app class="content_background" flat>
       <!-- 小螢幕顯示 -->
-      <v-app-bar-nav-icon class="d-block d-sm-none" @click="drawer = !drawer" />
+      <v-btn icon class="d-block d-sm-none" @click="drawer = !drawer">
+        <fa :icon="['fas', 'bars']" class="icon-3" />
+      </v-btn>
 
       <!-- 大螢幕顯示 -->
       <v-spacer />
@@ -57,17 +59,22 @@
           :key="index"
           @click="$router.push({ name: link.name })"
         >
-          {{ $t(link.title) }}
+          {{ link.title }}
         </v-tab>
       </v-tabs>
 
       <!-- 全顯示 -->
       <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">
-        <v-icon>mdi-lightbulb{{ $vuetify.theme.dark ? '-off' : '' }}</v-icon>
+        <fa
+          :icon="['fas', $vuetify.theme.dark ? 'lightbulb' : 'moon']"
+          class="icon-3"
+        />
       </v-btn>
       <v-menu offset-y :rounded="rounded">
         <template #activator="{ on }">
-          <v-btn icon v-on="on"><v-icon>mdi-translate</v-icon></v-btn>
+          <v-btn icon v-on="on">
+            <fa :icon="['fas', 'globe-asia']" class="icon-3" />
+          </v-btn>
         </template>
         <v-list>
           <v-list-item
@@ -152,25 +159,25 @@ export default {
           title: this.$t('home_page'),
           link: this.localePath({ name: 'index' }),
           name: `index___${this.$i18n.locale}`,
-          icon: 'mdi-home',
+          icon: ['fas', 'home'],
         },
         {
           title: this.$t('docs_page'),
           link: this.localePath({ name: 'documents' }),
           name: `documents___${this.$i18n.locale}`,
-          icon: 'mdi-book-open-variant',
+          icon: ['fas', 'book'],
         },
         {
           title: this.$t('privacy_policy_page'),
           link: this.localePath({ name: 'privacy_policy' }),
           name: `privacy_policy___${this.$i18n.locale}`,
-          icon: 'mdi-security',
+          icon: ['fas', 'shield-alt'],
         },
         {
           title: this.$t('terms_of_service_page'),
           link: this.localePath({ name: 'terms_of_service' }),
           name: `terms_of_service___${this.$i18n.locale}`,
-          icon: 'mdi-script-text',
+          icon: ['fas', 'gavel'],
         },
       ]
     },
@@ -219,5 +226,20 @@ export default {
 }
 .border_color_dark {
   border-color: #2da8cf;
+}
+.icon-1 {
+  font-size: 0.75rem;
+}
+.icon-2 {
+  font-size: 1rem;
+}
+.icon-3 {
+  font-size: 1.25rem;
+}
+.icon-4 {
+  font-size: 1.5rem;
+}
+.icon-5 {
+  font-size: 2rem;
 }
 </style>

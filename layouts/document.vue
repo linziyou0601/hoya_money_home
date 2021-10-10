@@ -11,7 +11,7 @@
         </v-list-item-avatar>
         <v-list-item-title>{{ $t('hoya_money') }}</v-list-item-title>
         <v-btn icon @click.stop="drawer = !drawer">
-          <v-icon>mdi-chevron-left</v-icon>
+          <fa :icon="['fas', 'chevron-left']" class="icon-3" />
         </v-btn>
       </v-list-item>
       <v-divider></v-divider>
@@ -29,22 +29,24 @@
             @click="$router.push({ name: link.name })"
           >
             <v-list-item-icon>
-              <v-icon>{{ link.icon }}</v-icon>
+              <fa :icon="link.icon" class="icon-3" />
             </v-list-item-icon>
 
             <v-list-item-content>
-              <v-list-item-title>{{ $t(link.title) }}</v-list-item-title>
+              <v-list-item-title>{{ link.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
           <v-list-item v-else class="mt-4 grey--text">
-            <v-list-item-title>{{ $t(link.title) }}</v-list-item-title>
+            <v-list-item-title>{{ link.title }}</v-list-item-title>
           </v-list-item>
         </div>
       </v-list>
     </v-navigation-drawer>
 
     <v-app-bar app class="content_background" flat>
-      <v-app-bar-nav-icon @click="drawer = !drawer" />
+      <v-btn icon @click="drawer = !drawer">
+        <fa :icon="['fas', 'bars']" class="icon-3" />
+      </v-btn>
 
       <!-- 大螢幕顯示 -->
       <v-avatar
@@ -60,11 +62,16 @@
 
       <!-- 全顯示 -->
       <v-btn icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">
-        <v-icon>mdi-lightbulb{{ $vuetify.theme.dark ? '-off' : '' }}</v-icon>
+        <fa
+          :icon="['fas', $vuetify.theme.dark ? 'lightbulb' : 'moon']"
+          class="icon-3"
+        />
       </v-btn>
       <v-menu offset-y :rounded="rounded">
         <template #activator="{ on }">
-          <v-btn icon v-on="on"><v-icon>mdi-translate</v-icon></v-btn>
+          <v-btn icon v-on="on">
+            <fa :icon="['fas', 'globe-asia']" class="icon-3" />
+          </v-btn>
         </template>
         <v-list>
           <v-list-item
@@ -148,14 +155,14 @@ export default {
           title: this.$t('home_page'),
           link: this.localePath({ name: 'index' }),
           name: `index___${this.$i18n.locale}`,
-          icon: 'mdi-home',
+          icon: ['fas', 'home'],
           readOnly: false,
         },
         {
           title: this.$t('docs_page'),
           link: this.localePath({ name: 'documents' }),
           name: `documents___${this.$i18n.locale}`,
-          icon: 'mdi-book-open-variant',
+          icon: ['fas', 'book'],
           readOnly: false,
         },
         {
@@ -166,21 +173,21 @@ export default {
           title: this.$t('docs_prepare_account_title'),
           link: this.localePath({ name: 'documents-prepare-account' }),
           name: `documents-prepare-account___${this.$i18n.locale}`,
-          icon: 'mdi-bank',
+          icon: ['fas', 'university'],
           readOnly: false,
         },
         {
           title: this.$t('docs_prepare_type_title'),
           link: this.localePath({ name: 'documents-prepare-type' }),
           name: `documents-prepare-type___${this.$i18n.locale}`,
-          icon: 'mdi-spa',
+          icon: ['fas', 'spa'],
           readOnly: false,
         },
         {
           title: this.$t('docs_prepare_project_title'),
           link: this.localePath({ name: 'documents-prepare-project' }),
           name: `documents-prepare-project___${this.$i18n.locale}`,
-          icon: 'mdi-wallet',
+          icon: ['fas', 'wallet'],
           readOnly: false,
         },
         {
@@ -191,7 +198,7 @@ export default {
           title: this.$t('docs_starter_record_title'),
           link: this.localePath({ name: 'documents-starter-record' }),
           name: `documents-starter-record___${this.$i18n.locale}`,
-          icon: 'mdi-spa',
+          icon: ['fas', 'feather'],
           readOnly: false,
         },
       ]

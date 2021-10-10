@@ -10,31 +10,31 @@ export default {
   multi_account_and_multi_currency_title: '多帳戶及多種貨幣',
   multi_account_and_multi_currency_content:
     '．支援新增多種帳戶進行資產管理（現金、銀行、信用卡、電子票證……）\n．並且支援不同貨幣並能從網路更新匯率',
-  multi_account_and_multi_currency_icon: 'mdi-bank',
+  multi_account_and_multi_currency_icon: ['fas', 'university'],
   project_and_budget_title: '專案及預算',
   project_and_budget_content:
     '．客製化的專案及預算設定功能，幫助你劃分不同的花費領域、還能檢視自己的資資產狀況！\n．設定預算提醒功能還能在記帳時提醒你即將超支！',
-  project_and_budget_icon: 'mdi-wallet',
+  project_and_budget_icon: ['fas', 'wallet'],
   dynamic_chart_title: '動態圖表',
   dynamic_chart_content:
     '．收支及餘額圖表分析簡單日常記帳花費\n．每月統計圖，花費分布圓餅圖及趨勢圖',
-  dynamic_chart_icon: 'mdi-chart-areaspline',
+  dynamic_chart_icon: ['fas', 'chart-line'],
   periodic_event_title: '週期記帳',
   periodic_event_content:
     '．客製化的週期記帳，能以日、週、月、年和間隔頻率的記帳功能\n．檢視所有週期事件，方便管理自己的未來任務',
-  periodic_event_icon: 'mdi-repeat',
+  periodic_event_icon: ['fas', 'redo-alt'],
   reminders_and_notifications_title: '提醒及通知',
   reminders_and_notifications_content:
     '．每日記帳提醒，讓記帳成為你的日常\n．繳款日提醒，設定好信用卡繳款日，不再錯過截止日！',
-  reminders_and_notifications_icon: 'mdi-bell',
+  reminders_and_notifications_icon: ['fas', 'bell'],
   backup_import_and_export_title: '備份、匯入及匯出',
   backup_import_and_export_content:
     '．連結Google帳號，即可備份、復原及匯出你的資料',
-  backup_import_and_export_icon: 'mdi-cloud-upload',
+  backup_import_and_export_icon: ['fas', 'cloud-upload-alt'],
   other_functions_title: '其他功能',
   other_functions_content:
     '．明亮及深色主題功能\n．密碼鎖定功能\n．支援中文、英文',
-  other_functions_icon: 'mdi-dots-horizontal-circle',
+  other_functions_icon: ['fas', 'braille'],
 
   snapshots: '實際擷圖',
 
