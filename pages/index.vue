@@ -55,7 +55,7 @@
               size="60"
             >
               <v-avatar color="primary" size="58">
-                <fa :icon="$t(`${key}_icon`)" class="icon-4" />
+                <fa :icon="$t(`${key}_icon`)" class="icon-4" color="#FFFFFF" />
               </v-avatar>
             </v-avatar>
           </v-col>
