@@ -1,22 +1,37 @@
-# hoya_money_home
+# Hoya Money App 簡介網站
 
-Hoya Money App 的簡介網站
+https://hoyamoney.linziyou.info/
 
-## Build Setup
+## 說明
 
-```bash
-# install dependencies
-$ npm install
+介面美觀、輕鬆上手，你的理財幫手。支援帳戶管理、自定義的專案預算、多幣種、報表等功能，好用的記帳軟體。
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+✨**多帳戶及多種貨幣**：
+- 支援新增多種帳戶進行資產管理（現金、銀行、信用卡、電子票證……）
+- 並且支援不同貨幣並能從網路更新匯率
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+✨**專案及預算**：
+- 客製化的專案及預算設定功能，幫助你劃分不同的花費領域、還能檢視自己的資資產狀況！
+- 設定預算提醒功能還能在記帳時提醒你即將超支！
 
-# generate static project
-$ npm run generate
-```
+✨**動態圖表**：
+- 收支及餘額圖表分析簡單日常記帳花費
+- 每月統計圖，花費分布圓餅圖及趨勢圖
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+✨**週期記帳**：
+- 客製化的週期記帳，能以日、週、月、年和間隔頻率的記帳功能。
+- 檢視所有週期事件，方便管理自己的未來任務
+
+✨**提醒及通知**：
+- 每日記帳提醒，讓記帳成為你的日常。
+- 繳款日提醒，設定好信用卡繳款日，不再錯過截止日！
+
+✨**備份、匯入及匯出**
+- 連結Google帳號，即可備份、復原及匯出你的資料
+
+✨**其他功能**
+- 明亮及深色主題功能
+- 密碼鎖定功能
+- 支援中文、英文
+
+✨**更多功能仍在開發中！**
