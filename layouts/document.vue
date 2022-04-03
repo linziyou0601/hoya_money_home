@@ -67,7 +67,7 @@
           class="icon-3"
         />
       </v-btn>
-      <v-menu offset-y :rounded="rounded">
+      <v-menu offset-y>
         <template #activator="{ on }">
           <v-btn icon v-on="on">
             <fa :icon="['fas', 'globe-asia']" class="icon-3" />

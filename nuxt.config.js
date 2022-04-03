@@ -48,6 +48,7 @@ export default {
           charset: 'utf-8'
         },
       ],
+      __dangerouslyDisableSanitizers: ['script'],
     }
   },
 

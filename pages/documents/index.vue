@@ -61,6 +61,13 @@ export default {
       pageTitle: this.$t('docs_page'),
     }
   },
+  computed: {
+    borderColor() {
+      return this.$vuetify.theme.dark
+        ? 'border_color_dark'
+        : 'border_color_light'
+    },
+  },
   created() {
     this.$nuxt.$emit('pageTitle', this.pageTitle)
   },
