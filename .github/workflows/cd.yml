@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      - name: Install cross-env
+        run: npm install cross-env -g
+
       - name: Install dependencies
         run: npm install
 
