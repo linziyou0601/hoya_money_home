@@ -70,7 +70,7 @@
       <v-menu offset-y>
         <template #activator="{ on }">
           <v-btn icon v-on="on">
-            <fa :icon="['fas', 'globe-asia']" class="icon-3" />
+            <fa :icon="['fas', 'earth-asia']" class="icon-3" />
           </v-btn>
         </template>
         <v-list>
@@ -155,7 +155,7 @@ export default {
           title: this.$t('home_page'),
           link: this.localePath({ name: 'index' }),
           name: `index___${this.$i18n.locale}`,
-          icon: ['fas', 'home'],
+          icon: ['fas', 'house'],
           readOnly: false,
         },
         {
@@ -173,7 +173,7 @@ export default {
           title: this.$t('docs_prepare_account_title'),
           link: this.localePath({ name: 'documents-prepare-account' }),
           name: `documents-prepare-account___${this.$i18n.locale}`,
-          icon: ['fas', 'university'],
+          icon: ['fas', 'building-columns'],
           readOnly: false,
         },
         {

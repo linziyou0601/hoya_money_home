@@ -11,7 +11,7 @@ export default {
     'Support multi-account and multi-currency',
   multi_account_and_multi_currency_content:
     '．Support for adding multiple accounts for asset management (cash, bank, credit card, e-payment, and so on)\n．And supports different currencies and can update the exchange rate from the Internet',
-  multi_account_and_multi_currency_icon: ['fas', 'university'],
+  multi_account_and_multi_currency_icon: ['fas', 'building-columns'],
   project_and_budget_title: 'Project and budget',
   project_and_budget_content:
     '．Customized project and budget setting feature help you divide different spending areas and view your own asset status!\n．The budget reminder function can also remind you that you are about to overspend when you are add record!',
@@ -23,7 +23,7 @@ export default {
   periodic_event_title: 'Periodic event',
   periodic_event_content:
     '．Customized periodic event, with daily, weekly, monthly, annual and interval frequency functions\n．View all periodic events to facilitate management of your future tasks',
-  periodic_event_icon: ['fas', 'redo-alt'],
+  periodic_event_icon: ['fas', 'rotate-right'],
   reminders_and_notifications_title: 'Reminders and notifications',
   reminders_and_notifications_content:
     '．Daily reminders make tracking money your daily routine\n．Reminder of payment due day, set a credit card payment due day, no longer miss the deadline!',
@@ -31,7 +31,7 @@ export default {
   backup_import_and_export_title: 'Backup, import and export',
   backup_import_and_export_content:
     '．Link your Google account to back up, restore and export your data',
-  backup_import_and_export_icon: ['fas', 'cloud-upload-alt'],
+  backup_import_and_export_icon: ['fas', 'cloud-arrow-up'],
   other_functions_title: 'Other functions',
   other_functions_content:
     '．Light and Dark theme\n．Password lock\n．Support Chinese and English',
