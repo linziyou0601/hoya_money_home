@@ -51,6 +51,10 @@ export default {
   docs_prepare_sec_description:
     'If you are using money tracking app for the first time, it is recommended that you read the documentation first and complete the preparation before you start recording. If you are transferring from other app, you might as well take a look at the difference with the app you originally used!',
 
+  // ----------//---------- 版本 ----------//----------
+  docs_version_title: 'Version',
+  docs_version_released_on: 'Released on:',
+
   // ----------//---------- 建立帳戶 ----------//----------
   docs_prepare_account_title: 'Create Account',
   docs_prepare_account_preface_title: 'The First Step',

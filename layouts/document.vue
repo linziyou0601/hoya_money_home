@@ -166,6 +166,13 @@ export default {
           readOnly: false,
         },
         {
+          title: this.$t('docs_version_title'),
+          link: this.localePath({ name: 'documents-version' }),
+          name: `documents-version___${this.$i18n.locale}`,
+          icon: ['fas', 'code-branch'],
+          readOnly: false,
+        },
+        {
           title: this.$t('docs_prepare_sec'),
           readOnly: true,
         },

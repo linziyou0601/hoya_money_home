@@ -4,7 +4,7 @@
     <v-navigation-drawer
       v-model="drawer"
       color="content_background"
-      class="d-block d-sm-none"
+      class="d-block d-md-none"
       app
     >
       <!-- 上方LOGO -->
@@ -39,7 +39,7 @@
 
     <v-app-bar app class="content_background" flat>
       <!-- 小螢幕顯示 -->
-      <v-btn icon class="d-block d-sm-none" @click="drawer = !drawer">
+      <v-btn icon class="d-block d-md-none" @click="drawer = !drawer">
         <fa :icon="['fas', 'bars']" class="icon-3" />
       </v-btn>
 
@@ -49,11 +49,11 @@
         color="content_background"
         size="48"
         style="border-radius: 12%"
-        class="d-none d-sm-block"
+        class="d-none d-md-block"
       >
         <v-img src="/adaptive_icon_foreground.png" alt="Logo" />
       </v-avatar>
-      <v-tabs v-model="tabValue" centered class="d-none d-sm-block">
+      <v-tabs v-model="tabValue" centered class="d-none d-md-block">
         <v-tab
           v-for="(link, index) in links"
           :key="index"
@@ -166,6 +166,12 @@ export default {
           link: this.localePath({ name: 'documents' }),
           name: `documents___${this.$i18n.locale}`,
           icon: ['fas', 'book'],
+        },
+        {
+          title: this.$t('docs_version_title'),
+          link: this.localePath({ name: 'documents-version' }),
+          name: `documents-version___${this.$i18n.locale}`,
+          icon: ['fas', 'code-branch'],
         },
         {
           title: this.$t('privacy_policy_page'),

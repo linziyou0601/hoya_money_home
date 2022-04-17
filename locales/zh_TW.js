@@ -50,6 +50,10 @@ export default {
   docs_prepare_sec_description:
     '如果您是初次踏入記帳行列的記帳新手，那麼建議您先閱讀說明文件，前完成事前準備後再開始記帳。若您是從其他記帳軟體轉移過來的，也不妨看看與自己原本使用的軟體有什麼差異吧！',
 
+  // ----------//---------- 版本 ----------//----------
+  docs_version_title: '版本',
+  docs_version_released_on: '發布於',
+
   // ----------//---------- 建立帳戶 ----------//----------
   docs_prepare_account_title: '建立帳戶',
   docs_prepare_account_preface_title: '記帳的第一步',
