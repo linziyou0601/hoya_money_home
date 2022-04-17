@@ -1,0 +1,416 @@
+[
+    {
+        "version": "1.1.1 (+31)",
+        "release_date": "2022/04/17",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修復部分情況備份時無法正確覆蓋舊檔的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the problem that the backup cannot override old file correctly in some situations"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.1.0 (+30)",
+        "release_date": "2022/03/19",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼",
+                    "優化Android 12之相容性"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code",
+                    "Optimize the compatibility of Android 12"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.1.0 (+29)",
+        "release_date": "2022/01/31",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼",
+                    "優化使用者介面及應用程式穩定性",
+                    "優化Android 11、12之相容性",
+                    "備份及復原按鈕加入確認視窗避免誤觸",
+                    "匯出CSV功能可選擇匯出方式",
+                    "匯入CSV功能加入錯誤提示訊息"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修復以期間檢視帳戶餘額時會包含未來值的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code",
+                    "Optimize the user interface and application stability",
+                    "Optimize the compatibility of Android 11 and 12",
+                    "Add confirmation window for the backup and restore to avoid accidental touches",
+                    "Option to choose export method of Export CSV function",
+                    "Add detail error message for Import CSV function"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fixed an issue where future values were included when viewing account balances by period"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.10 (+27 ~ +28)",
+        "release_date": "2021/11/01",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復部分情況瀏覽記帳明細會出現錯誤的問題",
+                    "修復主頁特定月份之紀錄計數顯示錯誤問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the problem that there will be errors when viewing the records in some situations",
+                    "Fix the problem that the records count on the homepage is displayed incorrectly in specific months"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.9 (+26)",
+        "release_date": "2021/10/04",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.8 (+25)",
+        "release_date": "2021/09/22",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復部分情況繳款截止日提醒錯誤問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the problem that the payment due date cannot be reminded in some situations"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.7 (+23 ~ +24)",
+        "release_date": "2021/09/03",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復總餘額統計期間錯誤問題",
+                    "修復子類別在主類別重新選擇時的偶發性錯誤問題",
+                    "修復一些問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the error of total balance statistics period",
+                    "Fix the occasional error of sub-type when main-type is re-selected",
+                    "Fix some bugs"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.6 (+20 ~ +22)",
+        "release_date": "2021/08/29",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復部分情況無法進行備份的問題",
+                    "修復搜尋頁帳戶及專案餘額錯誤的問題",
+                    "修復一些問題"
+                ]
+            },
+            {
+                "type": "新增",
+                "list": [
+                    "新增主題"
+                ]
+            },
+            {
+                "type": "改進",
+                "list": [
+                    "加入目前備份資料的資訊卡",
+                    "優化使用者介面"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the error of account and project balance on the Search Page",
+                    "Fix the problem that backup cannot be performed in some situations",
+                    "Fix some bugs"
+                ]
+            },
+            {
+                "type": "ADD",
+                "list": [
+                    "Add new theme"
+                ]
+            },
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Add the information card of the current backed-up data",
+                    "Optimize the user interface"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.5 (+19)",
+        "release_date": "2021/08/06",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復一些問題"
+                ]
+            },
+            {
+                "type": "改進",
+                "list": [
+                    "新增子類別篩選搜尋功能"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix some bugs"
+                ]
+            },
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Add sub-type filter search function"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.4 (+16 ~ +18)",
+        "release_date": "2021/08/04",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復圖表頁圓餅圖錯誤",
+                    "修復一些問題"
+                ]
+            },
+            {
+                "type": "改進",
+                "list": [
+                    "新增可換背景色的圖標"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix pie chart error on Chart Page",
+                    "Fix some bugs"
+                ]
+            },
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Add icons that can change the background color"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.3 (+15)",
+        "release_date": "2021/08/03",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復一些問題"
+                ]
+            },
+            {
+                "type": "改進",
+                "list": [
+                    "新增使用說明",
+                    "新增預設類別匯入功能"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix some bugs"
+                ]
+            },
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Add documents of how to use",
+                    "Add import function of default types"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.2 (+14)",
+        "release_date": "2021/08/02",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復一些問題"
+                ]
+            },
+            {
+                "type": "改進",
+                "list": [
+                    "加入篩選搜尋功能",
+                    "加入餘額隱藏功能",
+                    "優化使用者介面"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix some bugs"
+                ]
+            },
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Add filter search function",
+                    "Add balance hiding function",
+                    "Optimize the user interface"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.1 (+12 ~ +13)",
+        "release_date": "2021/07/30",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修正圖表資訊錯誤問題"
+                ]
+            },
+            {
+                "type": "改進",
+                "list": [
+                    "優化使用者介面"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the problem of chart information error"
+                ]
+            },
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the user interface"
+                ]
+            }
+        ]
+    },
+    {
+        "version": "1.0.0 (+11)",
+        "release_date": "2021/07/28",
+        "zh_TW": [
+            {
+                "type": "發布"
+            }
+        ],
+        "en_US": [
+            {
+                "type": "RELEASED"
+            }
+        ]
+    }
+]
