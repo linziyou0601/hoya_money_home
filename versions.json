@@ -1,5 +1,37 @@
 [
     {
+        "version": "1.2.0 (+32)",
+        "release_date": "2022/05/02",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼"
+                ]
+            },
+            {
+                "type": "新增",
+                "list": [
+                    "新增台灣電子發票掃描及匯入功能"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code"
+                ]
+            },
+            {
+                "type": "ADD",
+                "list": [
+                    "Added Taiwan electronic invoice scanning and import feature"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.1.1 (+31)",
         "release_date": "2022/04/17",
         "zh_TW": [
