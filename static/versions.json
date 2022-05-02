@@ -1,12 +1,13 @@
 [
     {
-        "version": "1.2.0 (+32)",
+        "version": "1.2.0 (+32 ~ +33)",
         "release_date": "2022/05/02",
         "zh_TW": [
             {
                 "type": "改進",
                 "list": [
-                    "優化程式碼"
+                    "優化程式碼",
+                    "改善應用程式啟動速度"
                 ]
             },
             {
@@ -20,7 +21,8 @@
             {
                 "type": "IMPROVE",
                 "list": [
-                    "Optimize the code"
+                    "Optimize the code",
+                    "Improve application startup speed"
                 ]
             },
             {
