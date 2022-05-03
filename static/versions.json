@@ -1,5 +1,29 @@
 [
     {
+        "version": "1.2.2 (+38)",
+        "release_date": "2022/05/03",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修正QR Code掃描器卡住的問題",
+                    "修正紀錄搜尋時列表錯位的問題",
+                    "修復螢幕大小不同導致電子發票跑版的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fixed QR Code scanner stuck issue",
+                    "Fixed an issue where the list was misplaced when searching for money records",
+                    "Fixed the problem that the Taiwan electronic invoice layout error due to different screen sizes"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.2.1 (+36 ~ +37)",
         "release_date": "2022/05/03",
         "zh_TW": [
@@ -21,7 +45,7 @@
     },
     {
         "version": "1.2.0 (+32 ~ +35)",
-        "release_date": "2022/05/03",
+        "release_date": "2022/05/02",
         "zh_TW": [
             {
                 "type": "改進",

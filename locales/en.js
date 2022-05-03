@@ -7,6 +7,10 @@ export default {
   download: 'Download Now',
 
   features: 'Features',
+  taiwan_invoice_title: 'Taiwan E-Invoice',
+  taiwan_invoice_content:
+    '．Support scanning invoices and synchronizing mobile barcode invoices\n．Allow linking of invoices and money records',
+  taiwan_invoice_icon: ['fas', 'receipt'],
   multi_account_and_multi_currency_title:
     'Support multi-account and multi-currency',
   multi_account_and_multi_currency_content:

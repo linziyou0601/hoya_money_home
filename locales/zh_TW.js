@@ -7,6 +7,10 @@ export default {
   download: '立即下載',
 
   features: '功能簡介',
+  taiwan_invoice_title: '電子發票',
+  taiwan_invoice_content:
+    '．支援掃描電子發票、同步手機條碼發票\n．可以將發票歸帳，方便統整每筆記帳紀錄',
+  taiwan_invoice_icon: ['fas', 'receipt'],
   multi_account_and_multi_currency_title: '多帳戶及多種貨幣',
   multi_account_and_multi_currency_content:
     '．支援新增多種帳戶進行資產管理（現金、銀行、信用卡、電子票證……）\n．並且支援不同貨幣並能從網路更新匯率',

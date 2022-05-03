@@ -114,6 +114,7 @@ export default {
     return {
       pageTitle: '',
       functionKeys: [
+        'taiwan_invoice',
         'multi_account_and_multi_currency',
         'project_and_budget',
         'dynamic_chart',
