@@ -1,5 +1,25 @@
 [
     {
+        "version": "1.2.1 (+36)",
+        "release_date": "2022/05/03",
+        "zh_TW": [
+            {
+                "type": "修復",
+                "list": [
+                    "修復螢幕大小不同導致電子發票跑版的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "FIX",
+                "list": [
+                    "Fixed the problem that the Taiwan electronic invoice layout error due to different screen sizes"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.2.0 (+32 ~ +35)",
         "release_date": "2022/05/03",
         "zh_TW": [
