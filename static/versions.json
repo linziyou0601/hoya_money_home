@@ -6,7 +6,8 @@
             {
                 "type": "改進",
                 "list": [
-                    "改善發票讀取提示文字"
+                    "改善發票讀取提示文字",
+                    "調整發票同步功能於跨入次月一週內仍可同步前一月發票"
                 ]
             },
             {
@@ -20,7 +21,8 @@
             {
                 "type": "IMPROVE",
                 "list": [
-                    "Improve invoice loading dialog prompt text"
+                    "Improve invoice loading dialog prompt text",
+                    "Adjust the invoice synchronization feature that the invoice of the previous month can still be synchronized while within a week of next month"
                 ]
             },
             {
