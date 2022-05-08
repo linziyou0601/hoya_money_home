@@ -1,5 +1,37 @@
 [
     {
+        "version": "1.2.3 (+39)",
+        "release_date": "2022/05/08",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "改善發票讀取提示文字"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修正QR Code掃描失敗問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Improve invoice loading dialog prompt text"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fixed QR Code scan failure problem"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.2.2 (+38)",
         "release_date": "2022/05/03",
         "zh_TW": [
