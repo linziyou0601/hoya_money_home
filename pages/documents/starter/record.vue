@@ -83,10 +83,10 @@
       <v-divider class="my-8" />
       <div>
         <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_starter_record_type_title') }}
+          {{ $t('docs_starter_record_category_title') }}
         </div>
         <div class="mb-4">
-          {{ $t('docs_starter_record_type_content') }}
+          {{ $t('docs_starter_record_category_content') }}
         </div>
         <v-alert
           border="left"
@@ -96,7 +96,7 @@
           elevation="1"
           class="mb-4"
         >
-          {{ $t('docs_starter_record_type_alert') }}
+          {{ $t('docs_starter_record_category_alert') }}
           <v-btn
             color="primary"
             class="mx-4 my-0"
@@ -108,76 +108,7 @@
               })
             "
           >
-            {{ $t('docs_starter_record_go') }}
-          </v-btn>
-        </v-alert>
-      </div>
-
-      <!-- 日期與時間 -->
-      <v-divider class="my-8" />
-      <div>
-        <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_starter_record_datetime_title') }}
-        </div>
-        <div class="mb-4">
-          {{ $t('docs_starter_record_datetime_content') }}
-        </div>
-      </div>
-
-      <!-- 專案及預算 -->
-      <v-divider class="my-8" />
-      <div>
-        <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_starter_record_project_title') }}
-        </div>
-        <div class="mb-4">
-          {{ $t('docs_starter_record_project_content') }}
-        </div>
-        <v-alert
-          border="left"
-          colored-border
-          color="primary"
-          type="info"
-          elevation="1"
-          class="mb-4"
-        >
-          {{ $t('docs_starter_record_project_alert') }}
-          <v-btn
-            color="primary"
-            class="mx-4 my-0"
-            outlined
-            small
-            @click="
-              $router.push({
-                name: `documents-prepare-project___${$i18n.locale}`,
-              })
-            "
-          >
-            {{ $t('docs_starter_record_go') }}
-          </v-btn>
-        </v-alert>
-      </div>
-
-      <!-- 週期記帳 -->
-      <v-divider class="my-8" />
-      <div>
-        <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_starter_record_periodic_title') }}
-        </div>
-        <div class="mb-4">
-          {{ $t('docs_starter_record_periodic_content') }}
-        </div>
-        <v-alert
-          border="left"
-          colored-border
-          color="primary"
-          type="info"
-          elevation="1"
-          class="mb-4"
-        >
-          {{ $t('docs_starter_record_periodic_alert') }}
-          <v-btn class="mx-4 my-0" outlined small :disabled="true">
-            {{ $t('docs_starter_record_under_construction') }}
+            {{ $t('docs_go') }}
           </v-btn>
         </v-alert>
       </div>
@@ -222,7 +153,7 @@
               })
             "
           >
-            {{ $t('docs_starter_record_go') }}
+            {{ $t('docs_go') }}
           </v-btn>
         </v-alert>
       </div>
@@ -247,6 +178,157 @@
         <div class="mb-4">
           {{ $t('docs_starter_record_counted_in_budget_content') }}
         </div>
+      </div>
+
+      <!-- 專案及預算 -->
+      <v-divider class="my-8" />
+      <div>
+        <div class="text-h5 font-weight-bold mb-4">
+          {{ $t('docs_starter_record_project_title') }}
+        </div>
+        <div class="mb-4">
+          {{ $t('docs_starter_record_project_content') }}
+        </div>
+        <v-alert
+          border="left"
+          colored-border
+          color="primary"
+          type="info"
+          elevation="1"
+          class="mb-4"
+        >
+          {{ $t('docs_starter_record_project_alert') }}
+          <v-btn
+            color="primary"
+            class="mx-4 my-0"
+            outlined
+            small
+            @click="
+              $router.push({
+                name: `documents-prepare-project___${$i18n.locale}`,
+              })
+            "
+          >
+            {{ $t('docs_go') }}
+          </v-btn>
+        </v-alert>
+      </div>
+
+      <!-- 多類別紀錄 -->
+      <v-divider class="my-8" />
+      <div>
+        <div class="text-h5 font-weight-bold mb-4">
+          {{ $t('docs_starter_record_multi_record_title') }}
+        </div>
+        <div class="mb-4">
+          {{ $t('docs_starter_record_multi_record_content') }}
+        </div>
+        <v-row class="mt-4">
+          <v-img
+            :src="`/documents/starter/record/multi_record_${localeSuffix}_${themeSuffix}.png`"
+            contain
+            class="mx-auto mb-4"
+            max-width="260"
+          />
+          <v-img
+            :src="`/documents/starter/record/multi_record_info_${localeSuffix}_${themeSuffix}.png`"
+            contain
+            class="mx-auto mb-4"
+            max-width="260"
+          />
+        </v-row>
+      </div>
+
+      <!-- 日期與時間 -->
+      <v-divider class="my-8" />
+      <div>
+        <div class="text-h5 font-weight-bold mb-4">
+          {{ $t('docs_starter_record_datetime_title') }}
+        </div>
+        <div class="mb-4">
+          {{ $t('docs_starter_record_datetime_content') }}
+        </div>
+      </div>
+
+      <!-- 週期記帳 -->
+      <v-divider class="my-8" />
+      <div>
+        <div class="text-h5 font-weight-bold mb-4">
+          {{ $t('docs_starter_record_periodic_title') }}
+        </div>
+        <div class="mb-4">
+          {{ $t('docs_starter_record_periodic_content') }}
+        </div>
+        <v-alert
+          border="left"
+          colored-border
+          color="primary"
+          type="info"
+          elevation="1"
+          class="mb-4"
+        >
+          {{ $t('docs_starter_record_periodic_alert') }}
+          <v-btn
+            color="primary"
+            class="mx-4 my-0"
+            outlined
+            small
+            @click="
+              $router.push({
+                name: `documents-starter-periodic___${$i18n.locale}`,
+              })
+            "
+          >
+            {{ $t('docs_go') }}
+          </v-btn>
+        </v-alert>
+      </div>
+
+      <!-- 台灣電子發票 -->
+      <v-divider class="my-8" />
+      <div>
+        <div class="text-h5 font-weight-bold mb-4">
+          {{ $t('docs_starter_record_invoice_title') }}
+        </div>
+        <div class="mb-4">
+          {{ $t('docs_starter_record_invoice_content') }}
+        </div>
+        <v-alert
+          border="left"
+          colored-border
+          color="primary"
+          type="info"
+          elevation="1"
+          class="mb-4"
+        >
+          {{ $t('docs_starter_record_invoice_alert') }}
+          <v-btn
+            color="primary"
+            class="mx-4 my-0"
+            outlined
+            small
+            @click="
+              $router.push({
+                name: `documents-starter-invoice___${$i18n.locale}`,
+              })
+            "
+          >
+            {{ $t('docs_go') }}
+          </v-btn>
+        </v-alert>
+        <!--<v-alert
+          border="left"
+          colored-border
+          color="primary"
+          type="info"
+          elevation="1"
+          class="mb-4"
+        >
+          {{ $t('docs_starter_record_invoice_alert') }}
+          <v-btn class="mx-4 my-0" outlined small :disabled="true">
+            {{ $t('docs_under_construction') }}
+          </v-btn>
+        </v-alert>-->
       </div>
     </v-col>
   </v-row>

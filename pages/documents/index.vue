@@ -24,7 +24,7 @@
         <div class="mb-4">{{ $t('docs_prepare_sec_description') }}</div>
         <v-row class="mb-4">
           <v-col
-            v-for="key in ['account', 'type', 'project']"
+            v-for="key in ['account', 'category', 'project']"
             :key="key"
             class="mt-1 pb-1"
             cols="12"

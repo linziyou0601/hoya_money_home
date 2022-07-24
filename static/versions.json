@@ -1,5 +1,63 @@
 [
     {
+        "version": "1.3.0 (+40 ~ +43)",
+        "release_date": "2022/07/24",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼",
+                    "改善應用程式啟動速度",
+                    "更新使用者介面",
+                    "優化搜尋功能",
+                    "更新資料格式",
+                    "調整電子發票同步邏輯"
+                ]
+            },
+            {
+                "type": "新增",
+                "list": [
+                    "新增單筆交易跨類別功能",
+                    "新增自定義圖表條件功能",
+                    "新增交易備註可加入HashTag"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修正子類別選項過多時無法選擇的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code",
+                    "Improve application startup speed",
+                    "Update user interface",
+                    "Optimize searching function",
+                    "Update database format",
+                    "Adjust the invoice synchronization logic"
+                ]
+            },
+            {
+                "type": "ADD",
+                "list": [
+                    "Add the feature that a transaction record can have multiple sub-records",
+                    "Add the feature that customizable chart condition",
+                    "Add the feature of HashTag for transaction record comment"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the problem that the sub-category cannot be selected when there are too many options"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.2.3 (+39)",
         "release_date": "2022/05/08",
         "zh_TW": [

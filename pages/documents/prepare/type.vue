@@ -4,16 +4,18 @@
       <!-- 標題 -->
       <div class="text-h4 font-weight-bold mb-14 text-center">
         <span :class="`pb-3 px-3 title_border_bottom ${borderColor}`">
-          {{ $t('docs_prepare_type_title') }}
+          {{ $t('docs_prepare_category_title') }}
         </span>
       </div>
 
       <!-- 錢花在哪裡 -->
       <div>
         <div class="text-h5 font-weight-bold mb-3">
-          {{ $t('docs_prepare_type_preface_title') }}
+          {{ $t('docs_prepare_category_preface_title') }}
         </div>
-        <div class="mb-3">{{ $t('docs_prepare_type_preface_content') }}</div>
+        <div class="mb-3">
+          {{ $t('docs_prepare_category_preface_content') }}
+        </div>
         <v-alert
           border="left"
           colored-border
@@ -22,7 +24,7 @@
           elevation="1"
           class="mb-4"
         >
-          {{ $t('docs_prepare_type_preface_alert') }}
+          {{ $t('docs_prepare_category_preface_alert') }}
         </v-alert>
       </div>
 
@@ -30,10 +32,10 @@
       <v-divider class="my-8" />
       <div>
         <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_prepare_type_manage_type_title') }}
+          {{ $t('docs_prepare_category_manage_category_title') }}
         </div>
         <div class="mb-4">
-          {{ $t('docs_prepare_type_manage_type_content') }}
+          {{ $t('docs_prepare_category_manage_category_content') }}
         </div>
         <v-alert
           border="left"
@@ -43,17 +45,17 @@
           elevation="1"
           class="mb-4"
         >
-          {{ $t('docs_prepare_type_manage_type_alert') }}
+          {{ $t('docs_prepare_category_manage_category_alert') }}
         </v-alert>
         <v-row class="mt-4">
           <v-img
-            :src="`/documents/prepare/type/other_fun_${localeSuffix}_${themeSuffix}.png`"
+            :src="`/documents/prepare/other_fun_${localeSuffix}_${themeSuffix}.png`"
             contain
             class="mx-auto mb-4"
             max-width="260"
           />
           <v-img
-            :src="`/documents/prepare/type/types_${localeSuffix}_${themeSuffix}.png`"
+            :src="`/documents/prepare/category/categories_${localeSuffix}_${themeSuffix}.png`"
             contain
             class="mx-auto mb-4"
             max-width="260"
@@ -65,10 +67,10 @@
       <v-divider class="my-8" />
       <div>
         <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_prepare_type_subtype_title') }}
+          {{ $t('docs_prepare_category_subcategory_title') }}
         </div>
         <div class="mb-4">
-          {{ $t('docs_prepare_type_subtype_content') }}
+          {{ $t('docs_prepare_category_subcategory_content') }}
         </div>
         <v-alert
           border="left"
@@ -78,10 +80,10 @@
           elevation="1"
           class="mb-4"
         >
-          {{ $t('docs_prepare_type_subtype_alert') }}
+          {{ $t('docs_prepare_category_subcategory_alert') }}
         </v-alert>
         <v-img
-          :src="`/documents/prepare/type/subtype_${localeSuffix}_${themeSuffix}.png`"
+          :src="`/documents/prepare/category/subcategory_${localeSuffix}_${themeSuffix}.png`"
           contain
           class="mx-auto mb-4"
           max-width="260"
@@ -92,10 +94,10 @@
       <v-divider class="my-8" />
       <div>
         <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_prepare_type_transfer_title') }}
+          {{ $t('docs_prepare_category_transfer_title') }}
         </div>
         <div class="mb-4">
-          {{ $t('docs_prepare_type_transfer_content') }}
+          {{ $t('docs_prepare_category_transfer_content') }}
         </div>
         <v-alert
           border="left"
@@ -105,7 +107,7 @@
           elevation="1"
           class="mb-4"
         >
-          {{ $t('docs_prepare_type_transfer_alert') }}
+          {{ $t('docs_prepare_category_transfer_alert') }}
         </v-alert>
       </div>
 
@@ -113,10 +115,10 @@
       <v-divider class="my-8" />
       <div>
         <div class="text-h5 font-weight-bold mb-4">
-          {{ $t('docs_prepare_type_merge_title') }}
+          {{ $t('docs_prepare_category_merge_title') }}
         </div>
         <div class="mb-4">
-          {{ $t('docs_prepare_type_merge_content') }}
+          {{ $t('docs_prepare_category_merge_content') }}
         </div>
         <v-alert
           border="left"
@@ -126,17 +128,17 @@
           elevation="1"
           class="mb-4"
         >
-          {{ $t('docs_prepare_type_merge_alert') }}
+          {{ $t('docs_prepare_category_merge_alert') }}
         </v-alert>
         <v-row class="mt-4">
           <v-img
-            :src="`/documents/prepare/type/merge_${localeSuffix}_${themeSuffix}.png`"
+            :src="`/documents/prepare/category/merge_${localeSuffix}_${themeSuffix}.png`"
             contain
             class="mx-auto mb-4"
             max-width="260"
           />
           <v-img
-            :src="`/documents/prepare/type/merge_to_dalog_${localeSuffix}_${themeSuffix}.png`"
+            :src="`/documents/prepare/category/merge_to_dalog_${localeSuffix}_${themeSuffix}.png`"
             contain
             class="mx-auto mb-4"
             max-width="260"
@@ -152,7 +154,7 @@ export default {
   layout: 'document',
   data() {
     return {
-      pageTitle: this.$t('docs_prepare_type_title'),
+      pageTitle: this.$t('docs_prepare_category_title'),
       accountGroups: [
         {
           en: 'Cash',

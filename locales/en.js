@@ -1,4 +1,7 @@
 export default {
+  docs_go: 'Go',
+  docs_under_construction: 'Page Not Ready',
+
   // -------------------- 首頁 --------------------
   home_page: 'Home',
   hoya_money: 'Hoya Money',
@@ -110,36 +113,36 @@ export default {
     'If there is an account that is not used for a long time or the account activity period has passed, it is recommended to set the account to be archived instead of deleting the account, because the related money records will be deleted when you delete an account, but the archive will not.',
 
   // ----------//---------- 建立分類 ----------//----------
-  docs_prepare_type_title: 'Create Type',
-  docs_prepare_type_preface_title: 'Where is the money spent?',
-  docs_prepare_type_preface_content:
+  docs_prepare_category_title: 'Create Category',
+  docs_prepare_category_preface_title: 'Where is the money spent?',
+  docs_prepare_category_preface_content:
     'Each revenue or expense represents a specific behavior, so classifying different revenue or expense can help you understand where the money is spent, rather than just a revenue or expense!',
-  docs_prepare_type_preface_alert:
+  docs_prepare_category_preface_alert:
     'There is no certain model for classification. Generally, it is classified in the directions of Food, Clothing, Housing, Transportation, Education, and Entertainment, and then subdivided according to needs.',
 
-  docs_prepare_type_manage_type_title: 'Type Management',
-  docs_prepare_type_manage_type_content:
-    'On the Others page, click "Types" to enter the Type Management page.',
-  docs_prepare_type_manage_type_alert:
-    'When you enter for the first time or the types is empty, you will be asked whether to import the default types for your quick use! You can add missing parts and remove unused parts according to your needs.',
+  docs_prepare_category_manage_category_title: 'Category Management',
+  docs_prepare_category_manage_category_content:
+    'On the Others page, click "Categories" to enter the Category Management page.',
+  docs_prepare_category_manage_category_alert:
+    'When you enter for the first time or the categories is empty, you will be asked whether to import the default categories for your quick use! You can add missing parts and remove unused parts according to your needs.',
 
-  docs_prepare_type_subtype_title: 'Sub-Types',
-  docs_prepare_type_subtype_content:
-    'Sub-types can divide a larger range of types into more detailed types for different expenses’ behavior, making it easier for you to track these expenses. You don’t need to add all the types at once, because it may take a period of time before you find the places that need to be adjusted, so you can adjust all the types and sub-types while recording your money records.',
-  docs_prepare_type_subtype_alert:
-    'When a sub-type is deleted, the money record data related to this sub-type will not be deleted, but the sub-type of these data will be set as "No Sub-Type."',
+  docs_prepare_category_subcategory_title: 'Sub-Categories',
+  docs_prepare_category_subcategory_content:
+    'Sub-categories can divide a larger range of categories into more detailed categories for different expenses’ behavior, making it easier for you to track these expenses. You don’t need to add all the categories at once, because it may take a period of time before you find the places that need to be adjusted, so you can adjust all the categories and sub-categories while recording your money records.',
+  docs_prepare_category_subcategory_alert:
+    'When a sub-category is deleted, the money record data related to this sub-category will not be deleted, but the sub-category of these data will be set as "No Sub-Category."',
 
-  docs_prepare_type_transfer_title: 'Transfer',
-  docs_prepare_type_transfer_content:
-    'In addition to Revenue and Expense, the "Transfer" type group is responsible for the movement of amounts "Between Accounts" such as withdrawals and deposit.',
-  docs_prepare_type_transfer_alert:
+  docs_prepare_category_transfer_title: 'Transfer',
+  docs_prepare_category_transfer_content:
+    'In addition to Revenue and Expense, the "Transfer" category group is responsible for the movement of amounts "Between Accounts" such as withdrawals and deposit.',
+  docs_prepare_category_transfer_alert:
     'You can create accounts "Receivable" and "Payable". When someone else borrows from you or pays on your behalf, transfer the amount from "The Account You Lent" to "The Account Receivable". amount of receivable is "POSITIVE", and when the amount is back to you, the Account Receivable is reversed; when you borrow from others, the amount is transferred from "The Account Payable" to "The Account You Borrowed". amount of Payables are "NEGATIVE", and when repaying, the Account Payable will be reversed. In this way, not only can you process the information of receivables and payables, but also faithfully represent the balance of assets and liabilities.',
 
-  docs_prepare_type_merge_title: 'Merge Type',
-  docs_prepare_type_merge_content:
-    'After recording for a period of time, if you find that some types are not well classified or useful, and you want to merge into other types, just click the merge button, and select the type you want to merge, and you can merge the types!',
-  docs_prepare_type_merge_alert:
-    'Merging types is an IRREVERSIBLE action, please use it carefully, or make a backup before using it!',
+  docs_prepare_category_merge_title: 'Merge Category',
+  docs_prepare_category_merge_content:
+    'After recording for a period of time, if you find that some categories are not well classified or useful, and you want to merge into other categories, just click the merge button, and select the category you want to merge, and you can merge the categories!',
+  docs_prepare_category_merge_alert:
+    'Merging categories is an IRREVERSIBLE action, please use it carefully, or make a backup before using it!',
 
   // ----------//---------- 建立專案及預算 ----------//----------
   docs_prepare_project_title: 'Create Project & Budget',
@@ -173,12 +176,11 @@ export default {
 
   docs_prepare_project_type_budget_title: 'Type Budgets',
   docs_prepare_project_type_budget_content:
-    'You can set a budget for each type and see if the type has overspend. If there is a budget for the type, when the budget is lower than the balance percentage set earlier, a warning will also be issued!',
+    'You can set a budget for each category and see if the category has overspend. If there is a budget for the category, when the budget is lower than the balance percentage set earlier, a warning will also be issued!',
 
-  // ----------//---------- 開始記帳 ----------//----------
+  // ----------//---------- 建立紀錄 ----------//----------
   docs_starter_sec: 'Starter',
-  docs_starter_record_go: 'Go',
-  docs_starter_record_under_construction: 'Page Not Ready',
+
   docs_starter_record_title: 'Create Record',
   docs_starter_record_preface_title: 'Start Your First Record',
   docs_starter_record_preface_content:
@@ -188,7 +190,7 @@ export default {
   docs_starter_record_add_record_content:
     'On the Homepage, click the "＋" sign below to add a record.',
   docs_starter_record_add_record_alert:
-    'If you have not completed the account and type settings, you will not be able to add a record. For account and type settings, please refer to the "Getting Ready" section.',
+    'If you have not completed the account and category settings, you will not be able to add a record. For account and category settings, please refer to the "Getting Ready" section.',
 
   docs_starter_record_field_title: 'Record Fields',
   docs_starter_record_field_content:
@@ -196,28 +198,13 @@ export default {
 
   docs_starter_record_group_title: 'Record Type',
   docs_starter_record_group_content:
-    'First select the type of record you want to record before you can select the type. Expense represents money outflow; Revenue represents money inflow; Transfer represents money transfer between accounts.',
+    'First select the type of record you want to record before you can select the category. Expense represents money outflow; Revenue represents money inflow; Transfer represents money transfer between accounts.',
 
-  docs_starter_record_type_title: 'Type & Sub-Type',
-  docs_starter_record_type_content:
-    'After selecting the record type, the set of types will be automatically displayed. Choose the appropriate type to classify the records. After selecting the main type, there will be a sub-type menu for you to choose, or you can click the sub-type area to change the sub-type!',
-  docs_starter_record_type_alert:
-    'If you haven’t set the Type yet, or don’t know what the Type is, please see the chapter "Getting Ready".',
-
-  docs_starter_record_datetime_title: 'Date & Time',
-  docs_starter_record_datetime_content: 'The date and time of this record.',
-
-  docs_starter_record_project_title: 'Project & Budget',
-  docs_starter_record_project_content:
-    'Select the project in which the record is classified, and the default is No Project.',
-  docs_starter_record_project_alert:
-    'If you haven’t set the Project yet, or don’t know what the Project is, please see the chapter "Getting Ready".',
-
-  docs_starter_record_periodic_title: 'Periodic Setting',
-  docs_starter_record_periodic_content:
-    'Set the period of this record, the default is Once, and it can be repeated in the manner of Dayly, Weekly, Monthly, Yearly, etc.',
-  docs_starter_record_periodic_alert:
-    'For information on Periodic Setting, please see the section "Periodic Setting".',
+  docs_starter_record_category_title: 'Category & Sub-Category',
+  docs_starter_record_category_content:
+    'After selecting the record type, the set of categories will be automatically displayed. Choose the appropriate category to classify the records. After selecting the main category, there will be a sub-category menu for you to choose, or you can click the sub-type area to change the sub-category!',
+  docs_starter_record_category_alert:
+    'If you haven’t set the Category yet, or don’t know what the Category is, please see the chapter "Getting Ready".',
 
   docs_starter_record_amount_title: 'Amount',
   docs_starter_record_amount_content:
@@ -236,6 +223,79 @@ export default {
   docs_starter_record_counted_in_budget_title: 'Counted in Budget',
   docs_starter_record_counted_in_budget_content:
     'If it is not included in the budget, the record can also be classified into a designated project and searched on the search record page, but it will not be included in the record list of the project and budget view page. You can set this field at any time according to your needs!',
+
+  docs_starter_record_project_title: 'Project & Budget',
+  docs_starter_record_project_content:
+    'Select the project in which the record is classified, and the default is No Project.',
+  docs_starter_record_project_alert:
+    'If you haven’t set the Project yet, or don’t know what the Project is, please see the chapter "Getting Ready".',
+
+  docs_starter_record_multi_record_title: 'Multi-Categories',
+  docs_starter_record_multi_record_content:
+    'If in a transaction record, the same category cannot clearly cover the entire transaction, or if additional fees are incurred during transfer, you can add multiple sub-records in the same transaction to fit the situation. Except for Date, Time, Periodic, Comment and Taiwan E-Invoice, other fields of sub-record can be edited freely.',
+
+  docs_starter_record_datetime_title: 'Date & Time',
+  docs_starter_record_datetime_content: 'The date and time of this record.',
+
+  docs_starter_record_periodic_title: 'Periodic Setting',
+  docs_starter_record_periodic_content:
+    'Set the period of this record, the default is Once, and it can be repeated in the manner of Dayly, Weekly, Monthly, Yearly, etc.',
+  docs_starter_record_periodic_alert:
+    'For information on Periodic Setting, please see the section "Periodic Setting".',
+
+  docs_starter_record_invoice_title: 'Taiwan E-Invoice',
+  docs_starter_record_invoice_content:
+    'The e-invoice associated with the transaction can be easily viewed, or the transaction can be created directly with the invoice.',
+  docs_starter_record_invoice_alert:
+    'For information on Taiwan E-Invoice, please see the section "Invoice".',
+
+  // ----------//---------- 週期紀錄 ----------//----------
+  docs_starter_periodic_record_alert:
+    'If you don’t know what the Transaction Record is, please see the section "Create Record".',
+
+  docs_starter_periodic_title: 'Periodic Setting',
+  docs_starter_periodic_preface_title: 'Recurring Transactions',
+  docs_starter_periodic_preface_content:
+    'Sometimes there will be transactions that recur in a fixed period, such as rent-fee, salary, telephone bills, subscription services, etc. At this time, you do not need record one by one, you can create a periodic transaction, and realize the record at the corresponding time.',
+
+  docs_starter_periodic_setting_title: 'Settings',
+  docs_starter_periodic_setting_content:
+    'When creating or editing transaction records, you can set the periodic of the transaction. The default is Once, and it can be repeated in the manner of Dayly, Weekly, Monthly, Yearly, etc.',
+
+  docs_starter_periodic_realize_title: 'Realize Record',
+  docs_starter_periodic_realize_content:
+    'If there is a periodic transaction, it will be displayed on the record page at the corresponding time. Click the unrealized record to view the information and choose whether to realize it.',
+
+  docs_starter_periodic_list_title: 'Manage Periodics',
+  docs_starter_periodic_list_content:
+    'On the Others page, click "Periodic Events" to enter the Periodic events page, and you can view the detailed information of the periodic event, or delete the periodic event.',
+
+  // ----------//---------- 圖表 ----------//----------
+  docs_starter_chart_title: 'Charts',
+  docs_starter_chart_preface_title: 'Tracking spending habits',
+  docs_starter_chart_preface_content:
+    'After recording for a certain period of time, you can use charts and statistic data to view your spending habits and revenue and expense within a certain period of time, you can effectively manage your finances and analyze your money-used behavior!',
+
+  docs_starter_chart_main_title: 'Chart and Statistic Data',
+  docs_starter_chart_main_content:
+    'By default, you can view the Overview, Details, Expense and Revenue data on a monthly basis on the Chart page.',
+
+  docs_starter_chart_condition_title: 'Chart Condition',
+  docs_starter_chart_condition_content:
+    'You can add your own preferred chart conditions on the page to filter the data you want to view.',
+
+  docs_starter_invoice_txn_connection_title: 'Connected Invoice',
+  docs_starter_invoice_txn_connection_content:
+    'After connecting the invoice, you can check the invoice on the connected transaction record.',
+
+  // ----------//---------- 電子發票 ----------//----------
+  docs_starter_invoice_title: 'Taiwan E-Invoice',
+  docs_starter_invoice_preface_content:
+    "This function is the support for Taiwan's electronic invoices. It can scan invoices and synchronize mobile barcode invoices. And it allowed linking of invoices and money records",
+
+  docs_starter_invoice_main_title: 'Invoice Management',
+  docs_starter_invoice_main_content:
+    'Click the Invoice button on the home page to enter the Invoice Management page, where you can view invoices, connect to the transaction and other actions',
 
   // -------------------- 隱私權政策 --------------------
   privacy_policy_page: 'Privacy Policy',

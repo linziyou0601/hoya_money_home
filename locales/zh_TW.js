@@ -1,4 +1,7 @@
 export default {
+  docs_go: '前往',
+  docs_under_construction: '頁面建置中',
+
   // -------------------- 首頁 --------------------
   home_page: '首頁',
   hoya_money: 'Hoya記帳',
@@ -109,35 +112,35 @@ export default {
     '如果有帳戶長時間使用不到、或是帳戶活動期間已過，建議可以以封存代替刪除帳戶，因為帳除帳戶會連帶刪除該帳戶相關的記帳資料，但是封存不會。',
 
   // ----------//---------- 建立分類 ----------//----------
-  docs_prepare_type_title: '建立分類',
-  docs_prepare_type_preface_title: '錢被花在哪裡？',
-  docs_prepare_type_preface_content:
+  docs_prepare_category_title: '建立分類',
+  docs_prepare_category_preface_title: '錢被花在哪裡？',
+  docs_prepare_category_preface_content:
     '每一篳收入或支出都代表著一件特定的行為，因此針對不同的收支進行分類可以讓自己瞭解錢花在哪裡，而不是單純的收支流水帳！',
-  docs_prepare_type_preface_alert:
+  docs_prepare_category_preface_alert:
     '分類沒有一定的模式，通常會以食、衣、住、行、育、樂等方向進行大分類，再依需求進行細分。',
 
-  docs_prepare_type_manage_type_title: '管理類別',
-  docs_prepare_type_manage_type_content:
+  docs_prepare_category_manage_category_title: '管理類別',
+  docs_prepare_category_manage_category_content:
     '於其他功能頁，點選「類別設定」進入類別管理頁面。',
-  docs_prepare_type_manage_type_alert:
+  docs_prepare_category_manage_category_alert:
     '初次進入或類別為空時會詢問是否匯入預設的類別，以供您快速使用！您可以依照自己的需求新增缺少的部分並移除用不到的部分。',
 
-  docs_prepare_type_subtype_title: '子類別',
-  docs_prepare_type_subtype_content:
+  docs_prepare_category_subcategory_title: '子類別',
+  docs_prepare_category_subcategory_content:
     '子類別可以將範圍較大的類別，針對不同的消費項目進行更細的劃分，讓您方便追蹤這些費用。可以不用一次新增完所有的類別，因為有可能要記帳一段時間後才會發現需要調整的地方，因此可以邊記邊調整所有的類別和子類別。',
-  docs_prepare_type_subtype_alert:
+  docs_prepare_category_subcategory_alert:
     '當子類別被刪除時，並不會刪除與這個子類別相關的記帳資料，而是會將該筆資料的子類別設為無子分類。',
 
-  docs_prepare_type_transfer_title: '轉移',
-  docs_prepare_type_transfer_content:
+  docs_prepare_category_transfer_title: '轉移',
+  docs_prepare_category_transfer_content:
     '除了收入、支出之外，「轉移」這個類別群組是負責諸如提款、儲值等「帳戶之間」的金額移動。',
-  docs_prepare_type_transfer_alert:
+  docs_prepare_category_transfer_alert:
     '您可以建立「應收款項」、「應付款項」帳戶，當他人向您借款或是您代付款項時，將金額從「您借出的帳戶」轉移到「應收款項」，此時「應收款項為正值」，並在收回款項時，反過來沖銷應收款項帳戶；當您向他人借款時，將金額從「應付款項」轉移到「您借入的帳戶」，此時「應付款項為負值」，並在償還時，反過來沖銷應付款項帳戶。如此一來，不僅可以處理應收、應付款項的資料，還能忠實表述資產與負債的餘額。',
 
-  docs_prepare_type_merge_title: '合併類別',
-  docs_prepare_type_merge_content:
+  docs_prepare_category_merge_title: '合併類別',
+  docs_prepare_category_merge_content:
     '記帳一段時間後，如果發現有些類別分類不佳或是用處不大，想要併入其他類別，只要點選合併鈕，並選擇欲合併的類別，及可將類別合併過去！',
-  docs_prepare_type_merge_alert:
+  docs_prepare_category_merge_alert:
     '合併類別是不可逆的動作，請小心使用，或是在使用前先進行備份！',
 
   // ----------//---------- 建立專案及預算 ----------//----------
@@ -174,10 +177,9 @@ export default {
   docs_prepare_project_type_budget_content:
     '可以為每個類別設定預算，並查看該類別是否已超支。如果有為類別設定預算的話，當預算低於前面所設定的百分比時，一樣會發出警告！',
 
-  // ----------//---------- 開始記帳 ----------//----------
+  // ----------//---------- 建立紀錄 ----------//----------
   docs_starter_sec: '開始記帳',
-  docs_starter_record_go: '前往',
-  docs_starter_record_under_construction: '頁面建置中',
+
   docs_starter_record_title: '建立紀錄',
   docs_starter_record_preface_title: '開始第一筆紀錄',
   docs_starter_record_preface_content:
@@ -197,27 +199,11 @@ export default {
   docs_starter_record_group_content:
     '先選擇您要進行紀錄的類型，才能進行類別的選擇。支出代表金錢流出；收入代表金錢流入；轉移代表帳戶間的金錢轉移。',
 
-  docs_starter_record_type_title: '類別及子類別',
-  docs_starter_record_type_content:
+  docs_starter_record_category_title: '類別及子類別',
+  docs_starter_record_category_content:
     '選擇完紀錄類型後，會自動顯示出已設定好的類別，選擇合適的類別將這比紀錄進行分類。選擇主要類別後，會有子類別的選單供您選擇，也可以點擊子類別區域更改子類別！',
-  docs_starter_record_type_alert:
+  docs_starter_record_category_alert:
     '若您還沒設定類別，或不知道類別是什麼，請見「事前準備」一章。',
-
-  docs_starter_record_datetime_title: '日期與時間',
-  docs_starter_record_datetime_content:
-    '這筆紀錄的日期與時間，意即消費當下的日期。',
-
-  docs_starter_record_project_title: '專案及預算',
-  docs_starter_record_project_content:
-    '選擇將該筆紀錄歸類在哪一個專案下，預設為無專案。',
-  docs_starter_record_project_alert:
-    '若您還沒設定專案，或不知道專案是什麼，請見「事前準備」一章。',
-
-  docs_starter_record_periodic_title: '週期記帳',
-  docs_starter_record_periodic_content:
-    '設定該筆紀錄的週期，預設為一次，可按日、週、月、年等方式進行重複。',
-  docs_starter_record_periodic_alert:
-    '有關週期記帳的資料，請見「週期記帳」一節。',
 
   docs_starter_record_amount_title: '金額',
   docs_starter_record_amount_content:
@@ -236,6 +222,80 @@ export default {
   docs_starter_record_counted_in_budget_title: '計入預算',
   docs_starter_record_counted_in_budget_content:
     '如果不計入預算，一樣可以將該筆紀錄歸類到指定的專案，並在搜尋紀錄頁面進行找查，但是不會在專案及預算檢視的紀錄列表中。您可以依需求隨時設定這個欄位！',
+
+  docs_starter_record_project_title: '專案及預算',
+  docs_starter_record_project_content:
+    '選擇將該筆紀錄歸類在哪一個專案下，預設為無專案。',
+  docs_starter_record_project_alert:
+    '若您還沒設定專案，或不知道專案是什麼，請見「事前準備」一章。',
+
+  docs_starter_record_multi_record_title: '多類別紀錄',
+  docs_starter_record_multi_record_content:
+    '如果一筆交易紀錄中，同一個類別無法明確涵蓋整筆交易，亦或像是轉帳時產生額外的手續費時，可以在同一筆交易中，新增多筆子紀錄來解決。除了日期、時間、週期、備註及台灣電子發票之外，子紀錄可以自由編輯其他的欄位。',
+
+  docs_starter_record_datetime_title: '日期與時間',
+  docs_starter_record_datetime_content:
+    '這筆紀錄的日期與時間，意即消費當下的日期。',
+
+  docs_starter_record_periodic_title: '週期記帳',
+  docs_starter_record_periodic_content:
+    '設定該筆紀錄的週期，預設為一次，可按日、週、月、年等方式進行重複。',
+  docs_starter_record_periodic_alert:
+    '有關週期記帳的資料，請見「週期記帳」一節。',
+
+  docs_starter_record_invoice_title: '台灣電子發票',
+  docs_starter_record_invoice_content:
+    '關聯該筆交易的電子發票，可以方便進行查閱，或以發票直接建立交易。',
+  docs_starter_record_invoice_alert:
+    '有關電子發票的資料，請見「電子發票」一節。',
+
+  // ----------//---------- 週期紀錄 ----------//----------
+  docs_starter_periodic_record_alert:
+    '若您還不知道記帳紀錄是什麼，請見「建立紀錄」一節。',
+
+  docs_starter_periodic_title: '週期紀錄',
+  docs_starter_periodic_preface_title: '重複發生的交易',
+  docs_starter_periodic_preface_content:
+    '有時候生活中會出現固定週期會重複發生的交易，例如房租、薪資、電話費、訂閱服務等等，此時可以不需要一筆一筆紀錄，可以建立週期紀錄，在相應時間實現該紀錄即可。',
+
+  docs_starter_periodic_setting_title: '設定週期',
+  docs_starter_periodic_setting_content:
+    '在記帳紀錄新增或編輯時，可以設定該筆交易重複週期，預設為一次，可按日、週、月、年等方式進行重複。',
+
+  docs_starter_periodic_realize_title: '實現紀錄',
+  docs_starter_periodic_realize_content:
+    '若有週期紀錄，在相應時間會顯示在紀錄頁上，點擊該筆未實現的週期紀錄，即可查看資訊，並選擇是否實現。',
+
+  docs_starter_periodic_list_title: '管理週期事件',
+  docs_starter_periodic_list_content:
+    '於其他功能頁，點選「週期事件」進入週期事件頁面，並可以查看週期事件詳細資訊，或刪除該週期事件。',
+
+  // ----------//---------- 圖表 ----------//----------
+  docs_starter_chart_title: '統計資料',
+  docs_starter_chart_preface_title: '檢視消費習慣',
+  docs_starter_chart_preface_content:
+    '記帳到一定時間後，便可以利用圖表等資料檢視自己過去一定期間內的消費習慣及收支的花費，可以有效理財，分析自己的消費行為！',
+
+  docs_starter_chart_main_title: '圖表及分析資料',
+  docs_starter_chart_main_content:
+    '在統計資料頁預設可以依每個月查看總覽、明細、支出及收入的資料。',
+
+  docs_starter_chart_condition_title: '自定義圖表條件',
+  docs_starter_chart_condition_content:
+    '可以在統計資料頁面新增自己偏好的圖表條件，以過濾想要查看的資料。',
+
+  // ----------//---------- 電子發票 ----------//----------
+  docs_starter_invoice_title: '台灣電子發票',
+  docs_starter_invoice_preface_content:
+    '這個功能是台灣電子發票專屬支援，可以掃描電子發票、同步手機條碼發票，將發票歸帳，方便統整每筆記帳紀錄！',
+
+  docs_starter_invoice_main_title: '發票管理',
+  docs_starter_invoice_main_content:
+    '可在首頁點選發票鈕，進入發票管理頁面，可以查看發票、進行歸帳等動作。',
+
+  docs_starter_invoice_txn_connection_title: '關聯的發票',
+  docs_starter_invoice_txn_connection_content:
+    '發票歸帳後，可在該筆交易紀錄進行查看。',
 
   // -------------------- 隱私權政策 --------------------
   privacy_policy_page: '隱私權政策',

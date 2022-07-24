@@ -184,7 +184,7 @@ export default {
           readOnly: false,
         },
         {
-          title: this.$t('docs_prepare_type_title'),
+          title: this.$t('docs_prepare_category_title'),
           link: this.localePath({ name: 'documents-prepare-type' }),
           name: `documents-prepare-type___${this.$i18n.locale}`,
           icon: ['fas', 'spa'],
@@ -206,6 +206,27 @@ export default {
           link: this.localePath({ name: 'documents-starter-record' }),
           name: `documents-starter-record___${this.$i18n.locale}`,
           icon: ['fas', 'feather'],
+          readOnly: false,
+        },
+        {
+          title: this.$t('docs_starter_periodic_title'),
+          link: this.localePath({ name: 'documents-starter-periodic' }),
+          name: `documents-starter-periodic___${this.$i18n.locale}`,
+          icon: ['fas', 'rotate-right'],
+          readOnly: false,
+        },
+        {
+          title: this.$t('docs_starter_chart_title'),
+          link: this.localePath({ name: 'documents-starter-chart' }),
+          name: `documents-starter-chart___${this.$i18n.locale}`,
+          icon: ['fas', 'chart-line'],
+          readOnly: false,
+        },
+        {
+          title: this.$t('docs_starter_invoice_title'),
+          link: this.localePath({ name: 'documents-starter-invoice' }),
+          name: `documents-starter-invoice___${this.$i18n.locale}`,
+          icon: ['fas', 'receipt'],
           readOnly: false,
         },
       ]
