@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "type": "ALL",
+        "level": "HIGH",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2022/07/26",
+        "datetime_end": "2022/07/26",
+        "zh_TW": {
+            "title": "關於資料格式轉換失敗",
+            "content": "目前已知部分使用者之專案及預算於，特定紀䤸值有機率出現錯誤，稍晚將會發布更新檔統一修正此問題。存在手機上的資料在沒有解除安裝應用程式的情況下，皆不會消失，也請您暫時不要對資料進行異動。"
+        },
+        "en_US": {
+            "title": "About data format conversion failure",
+            "content": "At present, it is known that some users' \"Project & Budget\" data may have errors in some situations, and an update will be released later to fix this problem. The data stored on the mobile phone will not disappear without uninstalling the app, please do not change the data temporarily."
+        }
+    }
+]
