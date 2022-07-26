@@ -13,6 +13,12 @@
                 ]
             },
             {
+                "type": "新增",
+                "list": [
+                    "新增公告頁"
+                ]
+            },
+            {
                 "type": "修復",
                 "list": [
                     "修正部分情況專案及預算無法成功升級資料格式"
@@ -27,6 +33,12 @@
                     "Improve user interface",
                     "Improve notification process for data conversion errors",
                     "Adjust the invoice synchronization logic"
+                ]
+            },
+            {
+                "type": "ADD",
+                "list": [
+                    "Add announcement page"
                 ]
             },
             {
