@@ -250,7 +250,7 @@ export default {
 }
 .announcement-title {
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: 700;
 }
 .announcement-content {
   font-size: 1rem;

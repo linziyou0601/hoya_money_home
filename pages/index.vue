@@ -30,7 +30,9 @@
         {{ $t('download') }}
       </v-btn>
 
-      <div class="text-h5 mt-10">{{ $t('announcement') }}</div>
+      <div class="text-h5 mt-10 mb-5 font-weight-bold">
+        {{ $t('announcement') }}
+      </div>
 
       <v-card
         elevation="16"
@@ -42,7 +44,7 @@
           <v-list-item-content>
             <v-list-item-title class="mt-2 text-left announcement-title">
               <div>
-                <v-chip close color="blue-grey" class="mr-2">
+                <v-chip close :color="announcementTypeTagColor" class="mr-2">
                   {{ item.type }}
                 </v-chip>
                 {{ item[localeSuffix].title }}
@@ -192,6 +194,11 @@ export default {
       return this.$vuetify.theme.dark
         ? 'blue-grey--text text--lighten-1'
         : 'blue-grey--text text--lighten-2'
+    },
+    announcementTypeTagColor() {
+      return this.$vuetify.theme.dark
+        ? 'blue-grey lighten-1'
+        : 'blue-grey lighten-2'
     },
   },
   mounted() {
