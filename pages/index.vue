@@ -3,8 +3,8 @@
     <!-- 介紹 -->
     <v-col
       cols="12"
-      sm="8"
-      md="6"
+      sm="10"
+      md="8"
       class="text-center"
       style="min-height: calc(100vh - 88px)"
     >
@@ -22,13 +22,58 @@
         color="primary"
         rounded
         large
-        class="text-h6 px-8 mt-10"
+        class="text-h6 px-8 mt-10 mb-10"
         outlined
         target="_blank"
         href="https://play.google.com/store/apps/details?id=com.hoya_money"
       >
         {{ $t('download') }}
       </v-btn>
+
+      <div class="text-h5 mt-10">{{ $t('announcement') }}</div>
+
+      <v-card
+        elevation="16"
+        class="mx-auto mt-4 overflow-y-auto"
+        color="content_background"
+        max-height="400"
+      >
+        <v-list-item v-for="item in announcementsJson" :key="item">
+          <v-list-item-content>
+            <v-list-item-title class="mt-2 text-left announcement-title">
+              <div>
+                <v-chip close color="blue-grey" class="mr-2">
+                  {{ item.type }}
+                </v-chip>
+                {{ item[localeSuffix].title }}
+              </div>
+            </v-list-item-title>
+
+            <v-list-item-content class="my-1 text-left announcement-content">
+              {{ item[localeSuffix].content }}
+            </v-list-item-content>
+
+            <v-list-item-content
+              :class="`mb-2 text-left announcement-datetime ${announcementDateColor}`"
+            >
+              <div>
+                {{ item.datetime_start }}
+                <v-chip
+                  close
+                  :color="announecmentTagColor(item.level)"
+                  class="ml-2"
+                  small
+                  outlined
+                >
+                  {{ item.level }}
+                </v-chip>
+              </div>
+            </v-list-item-content>
+
+            <v-divider></v-divider>
+          </v-list-item-content>
+        </v-list-item>
+      </v-card>
     </v-col>
 
     <!-- 功能 -->
@@ -108,6 +153,7 @@
 <script>
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.css'
+import announcementsJson from '@/static/announcements.json'
 
 export default {
   data() {
@@ -124,6 +170,7 @@ export default {
         'other_functions',
       ],
       swiper: null,
+      announcementsJson,
     }
   },
   computed: {
@@ -137,6 +184,14 @@ export default {
     },
     snapshotSuffix() {
       return this.$i18n.locale === 'en' ? 'en' : 'zh'
+    },
+    localeSuffix() {
+      return this.$i18n.locale === 'en' ? 'en_US' : 'zh_TW'
+    },
+    announcementDateColor() {
+      return this.$vuetify.theme.dark
+        ? 'blue-grey--text text--lighten-1'
+        : 'blue-grey--text text--lighten-2'
     },
   },
   mounted() {
@@ -170,6 +225,18 @@ export default {
   },
   created() {
     this.$nuxt.$emit('pageTitle', this.pageTitle)
+  },
+  methods: {
+    announecmentTagColor(level) {
+      switch (level) {
+        case 'HIGH':
+          return 'red'
+        case 'MODERATE':
+          return 'blue'
+        case 'NORMAL':
+          return 'blue-grey'
+      }
+    },
   },
 }
 </script>

@@ -1,6 +1,7 @@
 export default {
   docs_go: 'Go',
   docs_under_construction: 'Page Not Ready',
+  announcement: 'Announcement',
 
   // -------------------- 首頁 --------------------
   home_page: 'Home',

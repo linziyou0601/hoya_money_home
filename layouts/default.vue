@@ -248,4 +248,17 @@ export default {
 .icon-5 {
   font-size: 2rem;
 }
+.announcement-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.announcement-content {
+  font-size: 1rem;
+}
+.announcement-datetime {
+  font-size: 0.75rem;
+}
+.announcement-tag {
+  font-size: 0.75rem;
+}
 </style>

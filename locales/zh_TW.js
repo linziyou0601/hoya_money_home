@@ -1,6 +1,7 @@
 export default {
   docs_go: '前往',
   docs_under_construction: '頁面建置中',
+  announcement: '公告',
 
   // -------------------- 首頁 --------------------
   home_page: '首頁',
