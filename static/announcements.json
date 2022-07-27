@@ -1,5 +1,21 @@
 [
     {
+        "id": 3,
+        "type": "BUG",
+        "level": "NORMAL",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2022/07/27",
+        "datetime_end": "2022/07/31",
+        "zh_TW": {
+            "title": "多類別交易之子紀錄金額顯示有誤",
+            "content": "已知「多類別交易紀錄」於查看子紀錄時，子紀錄之「顯示金額」為整筆交易的總額，而非各子紀錄的金額。此問題不影響各頁面資料之金額加總，將待更新後修復。"
+        },
+        "en_US": {
+            "title": "The sub-record amount of the multi-type transaction is displayed incorrectly",
+            "content": "It is known that when viewing sub-records in a \"multi-type transaction record\", the \"displayed amount\" of the sub-record is the total amount of the entire transaction, not the amount of each sub-record. This problem does not affect the total amount of data on each page and will be fixed after the update."
+        }
+    },
+    {
         "id": 2,
         "type": "FIXED",
         "level": "MODERATE",
