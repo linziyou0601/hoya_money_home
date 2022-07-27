@@ -8,11 +8,11 @@
         "datetime_end": "2022/07/28",
         "zh_TW": {
             "title": "[已修復] 關於1.3.1版資料格式轉換失敗",
-            "content": "先前版本之「專案及預算」無法正確轉換資料至新格式之問題，已發布更新檔統一修正此問題。資料轉換失敗的使用者在開啟應用程式後、或還原Google雲端的備份資料時，會再自執行轉換機制。很抱歉造成不便您的不便！"
+            "content": "先前版本之「專案及預算」無法正確轉換資料至新格式之問題，已發布更新檔統一修正此問題。資料轉換失敗的使用者在開啟應用程式後、或還原Google雲端的備份資料時，會再自動執行轉換機制。很抱歉造成您的不便！"
         },
         "en_US": {
             "title": "[FIXED] About version 1.3.1 data format conversion failure",
-            "content": "The previous version of \"Project & Budget\" could not convert data to the new format correctly. An update has been released to fix this problem. If the data conversion fails, the conversion process will be executed again after opening the application or when restoring the backup data in Google Cloud. Sorry for the inconvenience caused to you!"
+            "content": "The previous version of \"Project & Budget\" could not convert data to the new format correctly. An update has been released to fix this problem. If the data conversion fails, the conversion process will be automatically executed after the user opens the application or restores the backup data in Google Cloud. Sorry for the inconvenience!"
         }
     },
     {
