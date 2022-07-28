@@ -1,7 +1,7 @@
 [
     {
-        "version": "1.3.1 (+45 ~ +48)",
-        "release_date": "2022/07/27",
+        "version": "1.3.1 (+45 ~ +49)",
+        "release_date": "2022/07/28",
         "zh_TW": [
             {
                 "type": "改進",
@@ -21,6 +21,7 @@
             {
                 "type": "修復",
                 "list": [
+                    "修正自定義圖表條件顯示錯誤問題",
                     "修正多類別交易之子紀錄金額顯示有誤",
                     "修正部分情況專案及預算無法成功升級資料格式"
                 ]
@@ -45,6 +46,7 @@
             {
                 "type": "FIX",
                 "list": [
+                    "Fixed the incorrect display of the custom chart conditions",
                     "Fixed the incorrect display of the sub-record amount of multi-category transactions",
                     "Fix the errors where projects and budgets data could not be successfully upgraded to the new data format in some cases"
                 ]

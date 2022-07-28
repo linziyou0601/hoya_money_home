@@ -5,7 +5,7 @@
         "level": "NORMAL",
         "scopes": ["PROD", "DEV"],
         "datetime_start": "2022/07/27",
-        "datetime_end": "2022/07/30",
+        "datetime_end": "2022/07/28",
         "zh_TW": {
             "title": "[已修復] 多類別交易之子紀錄金額顯示有誤",
             "content": "先前版本之多類別交易之子紀錄金額顯示有誤之情況，已發布更新檔進行修正。"
@@ -21,7 +21,7 @@
         "level": "NORMAL",
         "scopes": ["PROD", "DEV"],
         "datetime_start": "2022/07/27",
-        "datetime_end": "2022/07/30",
+        "datetime_end": "2022/07/28",
         "zh_TW": {
             "title": "多類別交易之子紀錄金額顯示有誤",
             "content": "已知「多類別交易紀錄」於查看子紀錄時，子紀錄之「顯示金額」為整筆交易的總額，而非各子紀錄的金額。此問題不影響各頁面資料之金額加總，將待更新後修復。"
