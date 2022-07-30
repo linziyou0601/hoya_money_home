@@ -14,9 +14,14 @@
         <div class="text-h5 font-weight-bold mb-1">
           {{ version.version }}
         </div>
-        <small :class="`d-block mb-3 ${releaseDateColor}`">
-          {{ $t('docs_version_released_on') }} {{ version.release_date }}
-        </small>
+        <div :class="`d-block mb-3 ${releaseDateColor}`">
+          <small>
+            {{ $t('docs_version_released_on') }} {{ version.release_date }}
+          </small>
+          <small v-show="version.last_patched" class="ml-2">
+            {{ $t('docs_version_last_updated_on') }} {{ version.last_patched }}
+          </small>
+        </div>
         <div v-for="(log, l_ind) in version[localeSuffix]" :key="l_ind">
           <div class="font-weight-bold mb-3">{{ log.type }}</div>
           <ul class="mb-4">

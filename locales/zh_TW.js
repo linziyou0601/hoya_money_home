@@ -61,6 +61,7 @@ export default {
   // ----------//---------- 版本 ----------//----------
   docs_version_title: '版本',
   docs_version_released_on: '發布於',
+  docs_version_last_updated_on: '最後修補於',
 
   // ----------//---------- 建立帳戶 ----------//----------
   docs_prepare_account_title: '建立帳戶',

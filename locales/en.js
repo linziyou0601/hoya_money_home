@@ -61,7 +61,8 @@ export default {
 
   // ----------//---------- 版本 ----------//----------
   docs_version_title: 'Version',
-  docs_version_released_on: 'Released on:',
+  docs_version_released_on: 'Released on',
+  docs_version_last_updated_on: 'Last Patched on',
 
   // ----------//---------- 建立帳戶 ----------//----------
   docs_prepare_account_title: 'Create Account',
