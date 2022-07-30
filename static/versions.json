@@ -22,9 +22,11 @@
             {
                 "type": "修復",
                 "list": [
-                    "修正帳戶交易明細每日金額加總顯示錯誤問題",
-                    "修正自定義圖表條件顯示錯誤問題",
-                    "修正多類別交易之子紀錄金額顯示有誤",
+                    "修正子預算達標時無法新增資料的錯誤",
+                    "修正帳戶交易明細每日金額加總顯示錯誤",
+                    "修正單一類別且多子類別之名稱顯示錯誤",
+                    "修正自定義圖表條件顯示錯誤",
+                    "修正多類別交易之子紀錄金額顯示錯誤",
                     "修正部分情況專案及預算無法成功升級資料格式"
                 ]
             }
@@ -48,9 +50,11 @@
             {
                 "type": "FIX",
                 "list": [
-                    "Fixed the incorrect display of the sub-record amount of Account Page",
-                    "Fixed the incorrect display of the custom chart conditions",
-                    "Fixed the incorrect display of the sub-record amount of multi-category transactions",
+                    "Fix the error that cannot add data when sub-budget meets budget",
+                    "Fix the incorrect display of the daily sub-record amount of Account Page",
+                    "Fix the incorrect display of multi-sub-category with single category",
+                    "Fix the incorrect display of the custom chart conditions",
+                    "Fix the incorrect display of the sub-record amount of multi-category transactions",
                     "Fix the errors where projects and budgets data could not be successfully upgraded to the new data format in some cases"
                 ]
             }
