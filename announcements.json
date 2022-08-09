@@ -11,8 +11,8 @@
             "content": "先前版本之電子發票無法刪除的問題，已發布更新檔進行修正。"
         },
         "en_US": {
-            "title": "[FIXED] The issue about e-invoice cannot be deleted",
-            "content": "The issue about e-invoice cannot be deleted in the previous version has been fixed with an update."
+            "title": "[FIXED] The issue about E-Invoice cannot be deleted",
+            "content": "The issue about E-Invoice cannot be deleted in the previous version has been fixed with an update."
         }
     },
     {
@@ -27,8 +27,8 @@
             "content": "已知存在電子發票無法刪除的問題，屬於程式錯誤，將待更新後修復。"
         },
         "en_US": {
-            "title": "The issue about e-invoice cannot be deleted",
-            "content": "It is known that there is an issue that the e-invoice cannot be deleted, which is a bug and will be fixed after the update."
+            "title": "The issue about E-Invoice cannot be deleted",
+            "content": "It is known that there is an issue that the E-Invoice cannot be deleted, which is a bug and will be fixed after the update."
         }
     },
     {
