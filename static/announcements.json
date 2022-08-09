@@ -1,5 +1,21 @@
 [
     {
+        "id": 6,
+        "type": "FIXED",
+        "level": "NORMAL",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2022/08/09",
+        "datetime_end": "2022/08/11",
+        "zh_TW": {
+            "title": "[已修復] 電子發票無法刪除問題",
+            "content": "先前版本之電子發票無法刪除的問題，已發布更新檔進行修正。"
+        },
+        "en_US": {
+            "title": "[FIXED] The issue about e-invoice cannot be deleted",
+            "content": "The issue about e-invoice cannot be deleted in the previous version has been fixed with an update."
+        }
+    },
+    {
         "id": 5,
         "type": "BUG",
         "level": "NORMAL",
