@@ -1,5 +1,43 @@
 [
     {
+        "version": "1.3.5 (+58)",
+        "release_date": "2022/09/01",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "改善發票讀取提示文字",
+                    "優化Android 12、13之相容性",
+                    "優化程式碼",
+                    "更新相依性函式庫"
+                ]
+            },
+            {
+                "type": "新增",
+                "list": [
+                    "新增將已設定的手機條碼移除的功能"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Improve invoice loading dialog prompt text",
+                    "Optimize the code",
+                    "Optimize the compatibility of Android 12 and 13",
+                    "Update dependency api library"
+                ]
+            },
+            {
+                "type": "ADD",
+                "list": [
+                    "Add the function of removing the set mobile barcode"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.3.4 (+56 ~ +57)",
         "release_date": "2022/08/31",
         "zh_TW": [
