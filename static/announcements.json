@@ -1,11 +1,27 @@
 [
     {
+        "id": 8,
+        "type": "FIXED",
+        "level": "MODERATE",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2022/09/10",
+        "datetime_end": "2022/09/17",
+        "zh_TW": {
+            "title": "[已修復] 已知Android 13檔案存取權限問題",
+            "content": "先前版本之Android 13無法進行匯入及匯出CSV的問題，已發布更新檔，採用新版檔案讀寫機制進行修正。"
+        },
+        "en_US": {
+            "title": "[FIXED] Known Android 13 file access permission issues",
+            "content": "The issue about Android 13 cannot import and export CSV in the previous version has been fixed with an update by using new document reading/writing mechanism."
+        }
+    },
+    {
         "id": 7,
         "type": "BUG",
         "level": "MODERATE",
         "scopes": ["PROD", "DEV"],
         "datetime_start": "2022/09/05",
-        "datetime_end": "2022/09/30",
+        "datetime_end": "2022/09/17",
         "zh_TW": {
             "title": "已知Android 13檔案存取權限問題",
             "content": "目前已知Android 13無法進行匯入及匯出CSV的問題，此為Android 13針對應用程式之檔案管控權限細緻化所導致，此問題將待後續更新修復，若後續有其他消息將依新公告進行通知。"
