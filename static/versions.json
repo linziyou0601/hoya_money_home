@@ -1,5 +1,45 @@
 [
     {
+        "version": "1.3.6 (+59)",
+        "release_date": "2022/09/10",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化Android 13之相容性",
+                    "優化程式碼",
+                    "更新相依性函式庫",
+                    "允許自定義圖表暫時調整起迄時間"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修正Android 13無法讀寫外部檔案(如:CSV)的問題",
+                    "修正特定情況在複製交易時有異動子交易會造成錯誤的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the compatibility of Android 13",
+                    "Optimize the code",
+                    "Update dependency api library",
+                    "Allow custom chart conditions to temporarily adjust start and end date"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fixed the problem that Android 13 cannot read and write external storage files (eg: CSV)",
+                    "Fixed an issue where there would be an error when copying transactions with modified sub-record in some situation"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.3.5 (+58)",
         "release_date": "2022/09/01",
         "zh_TW": [
