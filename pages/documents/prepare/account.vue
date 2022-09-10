@@ -231,8 +231,8 @@ export default {
         {
           en: 'E-Payment',
           zh: '電子支付',
-          intro_en: 'Line Pay、JKO Pay、Pi Wallet、Gama Pay、Easy Wallet',
-          intro_zh: 'Line Pay、街口支付、Pi拍錢包、橘子支付、悠遊付',
+          intro_en: '一卡通Money(Old: Line Pay Money)、JKO Pay、Pi Wallet、Gama Pay、Easy Wallet',
+          intro_zh: '一卡通Money(原: Line Pay Money)、街口支付、Pi拍錢包、橘子支付、悠遊付',
         },
         {
           en: 'E-Card',
