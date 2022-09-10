@@ -98,7 +98,7 @@
     {
         "id": 2,
         "type": "FIXED",
-        "level": "MODERATE",
+        "level": "HIGH",
         "scopes": ["PROD", "DEV"],
         "datetime_start": "2022/07/26",
         "datetime_end": "2022/07/28",
