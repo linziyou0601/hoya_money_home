@@ -5,7 +5,7 @@
         "level": "NORMAL",
         "scopes": ["PROD", "DEV"],
         "datetime_start": "2022/09/22",
-        "datetime_end": "2022/09/24",
+        "datetime_end": "2022/09/25",
         "zh_TW": {
             "title": "[新功能] 發票條碼及桌面小工具",
             "content": "現已發布的1.4.0版新增發票條碼查看功能及基本桌面小工具（帳戶餘額、專案預算、發票條碼）。"
@@ -21,14 +21,14 @@
         "level": "NORMAL",
         "scopes": ["PROD", "DEV"],
         "datetime_start": "2022/09/22",
-        "datetime_end": "2022/09/24",
+        "datetime_end": "2022/09/25",
         "zh_TW": {
-            "title": "[已修復] 發票不會同步的問題",
-            "content": "先前版本已知部分情況發票不會同步（在電子發票API正常的情況下）的問題，已發布更新檔進行解決。"
+            "title": "[已修復] 發票無法同步及自動備份無法運作的問題",
+            "content": "先前版本已知部分情況發票不會同步（在電子發票API正常的情況下）的問題；以及自動同步可能無法運作的問題，已發布更新檔進行解決。"
         },
         "en_US": {
-            "title": "[FIXED] The invoice will not be auto-synchronized",
-            "content": "Some invoices will not be auto-synchronized (in the normal case of the electronic invoice API) in the previous version has been fixed with an update."
+            "title": "[FIXED] The invoice will not be auto-synchronized and data will not be auto-backed up",
+            "content": "Some invoices will not be auto-synchronized (in the normal case of the electronic invoice API); And problems that data may not be auto-backed up to the Google cloud in the previous version has been fixed with an update."
         }
     },
     {
