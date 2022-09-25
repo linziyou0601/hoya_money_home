@@ -1,5 +1,49 @@
 [
     {
+        "version": "1.4.1 (v1401.01.01)",
+        "release_date": "2022/09/25",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "改善程式碼穩定性"
+                ]
+            },
+            {
+                "type": "新增",
+                "list": [
+                    "能夠套用Android 13之主題色APP圖標"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修復篩選功能錯誤的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Improve code stability"
+                ]
+            },
+            {
+                "type": "ADD",
+                "list": [
+                    "Ability to apply the themed color APP icon on Android 13"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix the problem of record filter function error"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.4.0 (v1400.01.01 ~ v1400.01.02)",
         "release_date": "2022/09/22",
         "last_patched": "2022/09/23",
