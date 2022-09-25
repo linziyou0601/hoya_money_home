@@ -1,12 +1,14 @@
 [
     {
-        "version": "1.4.1 (v1401.01.01)",
+        "version": "1.4.1 (v1401.01.01 ~ v1401.01.02)",
         "release_date": "2022/09/25",
+        "last_patched": "2022/09/25",
         "zh_TW": [
             {
                 "type": "改進",
                 "list": [
-                    "改善程式碼穩定性"
+                    "改善程式碼穩定性",
+                    "使Android 12以上版本之啟動畫面與其他版本一致"
                 ]
             },
             {
@@ -26,7 +28,8 @@
             {
                 "type": "IMPROVE",
                 "list": [
-                    "Improve code stability"
+                    "Improve code stability",
+                    "Make the splash screen of Android 12 and above the same as other versions"
                 ]
             },
             {
@@ -179,6 +182,7 @@
     {
         "version": "1.3.4 (v56 ~ v57)",
         "release_date": "2022/08/31",
+        "last_patched": "2022/08/31",
         "zh_TW": [
             {
                 "type": "改進",
