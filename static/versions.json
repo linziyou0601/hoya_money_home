@@ -1,5 +1,37 @@
 [
     {
+        "version": "1.4.3 (v1403.01.01)",
+        "release_date": "2022/11/05",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "改進背景讀取載具發票明細的功能"
+                ]
+            },
+            {
+                "type": "修復",
+                "list": [
+                    "修正無法取消已刪除的帳戶繳款日通知的問題"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Improve background retrieving of device invoice details"
+                ]
+            },
+            {
+                "type": "FIX",
+                "list": [
+                    "Fix an issue where payment due date notifications for deleted accounts could not be cancelled"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.4.2 (v1402.01.01 ~ v1402.01.04)",
         "release_date": "2022/10/09",
         "last_patched": "2022/10/10",
