@@ -1,5 +1,21 @@
 [
     {
+        "id": 11,
+        "type": "ISSUE",
+        "level": "NORMAL",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2022/11/27",
+        "datetime_end": "2022/11/31",
+        "zh_TW": {
+            "title": "已知電子發票連線緩慢問題",
+            "content": "已知近日同步電子發票、驗證手機條碼時，會發生讀取緩慢或是連線失敗等問題，目前判斷是近日發票開獎導致連線至財政部電子發票API的流量問題。若遇到連線失敗的情況，可隔一段時間後多次嘗試即可。"
+        },
+        "en_US": {
+            "title": "Known issues with slow connections to e-invoices",
+            "content": "It is known that when synchronizing e-invoices and verifying mobile barcodes recently, problems such as connection failures will occur. At present, it is judged that the recent invoice lottery results in network traffic problems connecting to the Ministry of Finance's electronic invoice API. If you encounter a connection failure, you can try several times after a period of time."
+        }
+    },
+    {
         "id": 10,
         "type": "NEW",
         "level": "NORMAL",
