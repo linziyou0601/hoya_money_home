@@ -1,5 +1,21 @@
 [
     {
+        "id": 12,
+        "type": "ISSUE",
+        "level": "HIGH",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2022/12/01",
+        "datetime_end": "2022/12/31",
+        "zh_TW": {
+            "title": "[處理中] 電子發票服務連線無法運作問題",
+            "content": "目前載具發票同步有高機率失敗，因為近期使用財政部電子發票API服務之App愈來愈多，因此有針對該API進行流量限制，而Hoya記帳目前的連線是由使用者手機直接發送，導致流量限制，只有部分使用者能下載到發票。本App後續將進行架構調整以優化此問題，請使用者暫時以手動記帳為主，造成不便敬請見諒。"
+        },
+        "en_US": {
+            "title": "[Processing] The e-invoice service connection cannot work",
+            "content": "At present, there is a high probability of device invoice sync. failing, because more and more apps use the Ministry of Finance's e-invoice API service recently, so there is a network traffic limit for this API, and the current connection of Hoya Money is directly sent by the user's phone. As a result of traffic restrictions, only some users can download invoices. The app will be adjusted in the future to optimize this problem. Please recordind manually for the time being, sorry for the inconvenience"
+        }
+    },
+    {
         "id": 11,
         "type": "ISSUE",
         "level": "NORMAL",
