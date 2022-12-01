@@ -1,5 +1,25 @@
 [
     {
+        "version": "1.4.5 (v1405.01.01)",
+        "release_date": "2022/12/01",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "電子發票API服務因流量限制暫停使用，待改版後上線"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "The e-invoice API service is suspended due to network traffic restrictions, and will be launched after the new version"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.4.4 (v1404.01.01)",
         "release_date": "2022/11/28",
         "zh_TW": [
