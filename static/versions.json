@@ -1,7 +1,8 @@
 [
     {
-        "version": "1.4.6-BETA (v1406.00.01 ~ v1406.00.02)",
+        "version": "1.4.6 (v1406.00.01 ~ v10406.01.01)",
         "release_date": "2022/12/10",
+        "last_patched": "2022/12/11",
         "zh_TW": [
             {
                 "type": "改進",
@@ -695,30 +696,9 @@
         ]
     },
     {
-        "version": "1.1.0 (v30)",
-        "release_date": "2022/03/19",
-        "zh_TW": [
-            {
-                "type": "改進",
-                "list": [
-                    "優化程式碼",
-                    "優化Android 12之相容性"
-                ]
-            }
-        ],
-        "en_US": [
-            {
-                "type": "IMPROVE",
-                "list": [
-                    "Optimize the code",
-                    "Optimize the compatibility of Android 12"
-                ]
-            }
-        ]
-    },
-    {
-        "version": "1.1.0 (v29)",
+        "version": "1.1.0 (v29 ~ v30)",
         "release_date": "2022/01/31",
+        "last_patched": "2022/03/19",
         "zh_TW": [
             {
                 "type": "改進",
