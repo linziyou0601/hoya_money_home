@@ -344,7 +344,7 @@ export default {
   policy_6_content_3:
     'If it is necessary to entrust other units to provide services due to business needs, this service will also strictly require them to abide by their confidentiality obligations, and take necessary inspection procedures to ensure that they will actually comply.',
   policy_6_content_4:
-    'This service adopts appropriate personal data protection measures, and the authority to process or use personal data is only open to those who need it (need-to-know basis)',
+    'This service adopts appropriate personal data protection measures, and the authority to process or use personal data is only open to those who need it (need-to-know basis).',
   policy_7_title: '7. Amendment of this statement',
   policy_7_content:
     'The statement of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: December 10, 2022',
