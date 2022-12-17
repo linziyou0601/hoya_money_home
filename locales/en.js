@@ -305,25 +305,52 @@ export default {
     'Thank you for using Hoya Money! These Privacy Policy apply to the use of the software and various services (hereinafter also referred as “this service”). Please read the following carefully to protect your rights:',
   policy_1_title: '1. Applicable scope of this statement',
   policy_1_content:
-    'The content of this statement including how this service handles the personal identification data collected when you use the service. The privacy policy does not apply to related linked websites other than this service, nor does it apply to personnel who are not entrusted or involved in the management of this service.',
-  policy_2_title: '2. Information we may collect about you',
-  policy_2_content_1:
-    'When you visit this service or use the functional services provided by this service, we will, depending on the nature of the service function, ask you to provide the necessary personal data, and process and use your personal data within the scope of the specific purpose; Written consent, this service will not use personal data for other purposes.',
-  policy_2_content_2:
+    'The content of this statement including how this service handles the personal identification data collected when you use the service. The privacy policy and personal data protection statement apply to the region of Republic of China (Taiwan) and within the scope of this service; it does not apply to related linked websites other than this service, nor does it apply to persons who are not entrusted or participate in the management of this service.',
+  policy_2_title: '2. Purpose of personal data collection',
+  policy_2_content:
+    'The following codes refer to the “The specific purpose and the classification of personal information of the Personal Information Protection Act” announced by the Ministry of Justice. If the codes and project names are subsequently changed by the Ministry of Justice’s announcement, they will also be changed accordingly: “040 Marketing (including financial cross-selling business)”, “081 Legal transaction business for personal data”, “090 Consumer, Customer Management and Service”, “135 Information (Communication) Services”, “136 Information (Communication) and database Management”, “148 Internet shopping and other electronic commerce services” , “157 Investigation, statistics and research analysis”.',
+  policy_3_title: '3. Classification of Personal Data Collection',
+  policy_3_content_1:
+    'Code 001 Type for identifying individuals. For example: Name, internet web signing up account, photograph, the E-mail address, record providing internet identity authentication or applying inquiry service record as well as any other data which can identify the individual.',
+  policy_3_content_2:
+    'Code 036 Lifestyles. For example: The types and details of consumer goods and services, personal or family consumption patterns, etc.',
+  policy_3_content_3:
+    'Code 093 Financial deals. For example: The amount paid, the way to pay or record of dealing, etc.',
+  policy_4_title: '4. Collection, processing and using of personal data',
+  policy_4_content_1:
+    'The collection period of personal data is from the date when you use the various functions provided by this service to the date when you apply for cessation; or the expiry date of use disclosed in the various activities of this service. However, if the laws and regulations provide otherwise, the provisions shall follow.',
+  policy_4_content_2:
+    'When you use the App, Website, or Various Activities of this service, we will depending on the nature of the service function, ask you to provide the necessary personal data, and process and use your personal data within the scope of the specific purpose; Without your written consent, this service will not use personal data for other purposes, and this service will not and cannot share your do not yet have unseparated and encrypted personal data with any third party for any purpose.',
+  policy_4_content_3:
     'When you use the interactive functions of this service (including but not limited to cloud backup, service mailbox, questionnaire survey), the service will retain the name, email address, contact information, attachments, and time of use provided by you, and will vary from time to time Clear these data.',
-  policy_2_content_3:
-    'All data used by this service is only stored on personal devices (Android), and without your permission, we will not actively collect the data you upload and back up to Google cloud storage.',
-  policy_2_content_4:
-    'In order to provide accurate services, we will conduct statistics and analysis on the content of the collected questionnaires, and present the statistical data or explanatory text of the analysis results. In addition to internal research, we will publish statistical data and explanatory text as necessary, but does not involve specific Personal information.',
-  policy_3_title: '3. Protection of personal data',
-  policy_3_content:
-    'All data used in this service is only stored on your personal device (Android), and provides you with the function of uploading to Google cloud storage to ensure that your have a chance of recovery in the event of loss, replacement or unexplained data damage.',
-  policy_4_title: '4. Amendment of this statement',
-  policy_4_content:
-    'The statement of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: July 30, 2021',
-  policy_5_title: '5. Contact us',
-  policy_5_content:
-    'If you have any questions or suggestions about the privacy policy, please feel free to contact us at “support@linziyou.info”.',
+  policy_4_content_4:
+    'In order to evaluate and monitor the network traffic of each page to ensure uninterrupted service, provide accurate service and provide a better user experience, this service may automatically collect your App or Browser’s “IP address, URL, click history, usage device, advertising identification code, tracking code or login information” in a de-identified manner through the services provided by Google or related service providers, and use it for data statistics and research.',
+  policy_4_content_5:
+    'You fully understand that when you use the Taiwan electronic invoice-related functions provided in this service, it means that you authorize this service to access the information provided by the Ministry of Finance’s electronic invoice application API according to the login information (including but not limited to mobile barcode, verification code, invoice number and related infomation) provided by you; And you also agree that this service can store the information and connection track records in the server of this service, so as to reduce the frequency of accessing the electronic invoice application API of the Ministry of Finance, and avoid the interruption of the connection between this service and the electronic invoice platform of the Ministry of Finance due to network traffic overload. You may request to delete the records kept in this service at any time in accordance with the “Personal Data Protection Act” and “The Fifth Statement of the Privacy Policy” of this service.',
+  policy_5_title: '5. Rights of data subject',
+  policy_5_content_1:
+    'In accordance with the “Personal Data Protection Act” and related laws and regulations, this service is able to allow data subject exercise the following rights with regard to his/her personal data: “make an inquiry of and to review his/her personal data”, “request a copy of his/her personal data”, “supplement or correct his/her personal data”, “demand the cessation of the collection, processing or use of his/her personal data”; and “erase his/her personal data”.',
+  policy_5_content_2:
+    'You are free to choose whether to provide your personal information, but if you refuse to provide relevant personal information, some functions of this service will not be able to perform necessary processing operations, resulting in failure to provide relevant services.',
+  policy_5_content_3:
+    'If the personal data you request to inquire, review or make a personal copy is the data provided by third-party services (such as: Google-related services), because it is not kept by this service, or this service can only obtain de-identified anonymous statistical data, so this service cannot provide this data to you. You also may not request that your data be deleted from the parent body of the de-identified analysis data.',
+  policy_5_content_4:
+    'You can also write to the service mailbox support@linziyou.info at any time to request this service to stop collecting, processing and using your personal data. If there is a contractual relationship or a disputed event or other requirements of the competent authority or regulations, this service may refuse the request, or terminate the contractual relationship with you while agreeing to the request. After confirming your identity, this service will perform the above obligations within the statutory period according to your application. If you entrust someone else to apply on your behalf, you should also provide a verifiable identity certificate for verification.',
+  policy_6_title: '6. Protection of personal data',
+  policy_6_content_1:
+    'All money record data for this service is only stored on personal devices (Android), and without your permission, we will not actively collect the data you upload and back up to Google cloud storage; but provides you with the function of uploading to personal Google cloud storage to ensure that your have a chance of recovery in the event of loss, replacement or unexplained data damage.',
+  policy_6_content_2:
+    'When the user logs in to the Google account through this service to access the backup data in the Google Drive, the app only needs to call the API provided by Google for login verification. The verification process is carried out on the relevant Google platform, and this service will not store his/her login information and personal information.',
+  policy_6_content_3:
+    'If it is necessary to entrust other units to provide services due to business needs, this service will also strictly require them to abide by their confidentiality obligations, and take necessary inspection procedures to ensure that they will actually comply.',
+  policy_6_content_4:
+    'This service adopts appropriate personal data protection measures, and the authority to process or use personal data is only open to those who need it (need-to-know basis)',
+  policy_7_title: '7. Amendment of this statement',
+  policy_7_content:
+    'The statement of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: December 10, 2022',
+  policy_8_title: '8. Contact us',
+  policy_8_content:
+    'If you have any questions or suggestions about the privacy policy or personal data protection statement, please feel free to contact us at “support@linziyou.info”.',
 
   // -------------------- 服務條款 --------------------
   terms_of_service_page: 'Terms of Serivce',
@@ -350,10 +377,17 @@ export default {
     'We will not be liable for damages to your personal money record data. Please be sure to back up your data regularly.',
   terms_of_service_3_content_3:
     'This service does not bear any guarantee responsibility for each service. This service does not guarantee that the services will not be interrupted, and you agree to bear all the risks of using this service and any damage that may occur.',
-  terms_of_service_4_title: '4. Amendment of this terms of this service',
-  terms_of_service_4_content:
-    'The terms of this service of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: July 30, 2021',
-  terms_of_service_5_title: '5. Contact us',
+  terms_of_service_4_title: '4. The rights you authorize to this service',
+  terms_of_service_4_content_1:
+    'You fully understand that when you use the Taiwan electronic invoice-related functions provided in this service, it means that you authorize this service to access the information provided by the Ministry of Finance’s electronic invoice application API according to the login information (including but not limited to mobile barcode, verification code, invoice number and related infomation) provided by you; And you also agree that this service can store the information and connection track records in the server of this service, so as to reduce the frequency of accessing the electronic invoice application API of the Ministry of Finance, and avoid the interruption of the connection between this service and the electronic invoice platform of the Ministry of Finance due to network traffic overload. You may request to delete the records kept in this service at any time in accordance with the “Personal Data Protection Act” and “The Fifth Statement of the Privacy Policy” of this service.',
+  terms_of_service_4_content_2:
+    'As your legally authorized agent, this service obtains your invoice information through the Ministry of Finance’s electronic invoice application API to download the invoice information and details to your personal money record data, but is not responsible for the correctness of the accessed content. The responsibility for the guarantee, the correctness of the content shall be the responsibility of the electronic invoice platform of the Ministry of Finance and third-party manufacturers.',
+  terms_of_service_4_content_3:
+    'If the API service of the Ministry of Finance’s electronic invoice application is interrupted or the data is unavailable due to the network traffic overload, the content provided by this service may not be instant, final and valid.',
+  terms_of_service_5_title: '5. Amendment of this terms of this service',
   terms_of_service_5_content:
+    'The terms of this service of this service will be revised at any time in response to needs, and the revised terms will be published on the website and software. This statement was last updated: December 10, 2022',
+  terms_of_service_6_title: '6. Contact us',
+  terms_of_service_6_content:
     'If you have any questions or suggestions about the terms of service, please feel free to contact us at “support@linziyou.info”.',
 }

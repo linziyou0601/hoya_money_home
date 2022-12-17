@@ -47,12 +47,6 @@ export default {
         {
           key: 'policy_2_content',
           size: 'h7',
-          children: [
-            'policy_2_content_1',
-            'policy_2_content_2',
-            'policy_2_content_3',
-            'policy_2_content_4',
-          ],
         },
         {
           key: 'policy_3_title',
@@ -61,6 +55,11 @@ export default {
         {
           key: 'policy_3_content',
           size: 'h7',
+          children: [
+            'policy_3_content_1',
+            'policy_3_content_2',
+            'policy_3_content_3',
+          ],
         },
         {
           key: 'policy_4_title',
@@ -69,6 +68,13 @@ export default {
         {
           key: 'policy_4_content',
           size: 'h7',
+          children: [
+            'policy_4_content_1',
+            'policy_4_content_2',
+            'policy_4_content_3',
+            'policy_4_content_4',
+            'policy_4_content_5',
+          ],
         },
         {
           key: 'policy_5_title',
@@ -76,6 +82,42 @@ export default {
         },
         {
           key: 'policy_5_content',
+          size: 'h7',
+          children: [
+            'policy_5_content_1',
+            'policy_5_content_2',
+            'policy_5_content_3',
+            'policy_5_content_4',
+          ],
+        },
+        {
+          key: 'policy_6_title',
+          size: 'h6',
+        },
+        {
+          key: 'policy_6_content',
+          size: 'h7',
+          children: [
+            'policy_6_content_1',
+            'policy_6_content_2',
+            'policy_6_content_3',
+            'policy_6_content_4',
+          ],
+        },
+        {
+          key: 'policy_7_title',
+          size: 'h6',
+        },
+        {
+          key: 'policy_7_content',
+          size: 'h7',
+        },
+        {
+          key: 'policy_8_title',
+          size: 'h6',
+        },
+        {
+          key: 'policy_8_content',
           size: 'h7',
         },
       ],

@@ -78,6 +78,11 @@ export default {
         {
           key: 'terms_of_service_4_content',
           size: 'h7',
+          children: [
+            'terms_of_service_4_content_1',
+            'terms_of_service_4_content_2',
+            'terms_of_service_4_content_3',
+          ],
         },
         {
           key: 'terms_of_service_5_title',
@@ -85,6 +90,14 @@ export default {
         },
         {
           key: 'terms_of_service_5_content',
+          size: 'h7',
+        },
+        {
+          key: 'terms_of_service_6_title',
+          size: 'h6',
+        },
+        {
+          key: 'terms_of_service_6_content',
           size: 'h7',
         },
       ],
