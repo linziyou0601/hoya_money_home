@@ -1,5 +1,29 @@
 [
     {
+        "version": "1.4.7 (v10407.01.01)",
+        "release_date": "2022/12/20",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化電子發票同步頻率",
+                    "調整電子發票錯誤訊息",
+                    "增加電子發票掃描防呆機制"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the synchronization frequency of e-invoices",
+                    "Adjustment of e-invoice error message",
+                    "Increase the anti-fool mechanism of e-invoice scanning"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.4.6 (v1406.00.01 ~ v10406.01.03)",
         "release_date": "2022/12/10",
         "last_patched": "2022/12/12",
