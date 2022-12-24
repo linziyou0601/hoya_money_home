@@ -1,5 +1,29 @@
 [
     {
+        "version": "1.4.8 (v10408.01.01)",
+        "release_date": "2022/12/24",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "調整備份與還原的警告訊息",
+                    "調整登入後自動詢問是否從雲端備份還原資料",
+                    "新增可以選擇欲還原的舊備份功能（若備份檔存在）"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Adjustment of backup and restore warning messages",
+                    "Adjustment of automatically ask whether to restore data from cloud backup after login",
+                    "Added the ability to select the old backup to restore (if the backup file exists)"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.4.7 (v10407.01.01 ~ v10407.01.02)",
         "release_date": "2022/12/20",
         "last_patched": "2022/12/21",
