@@ -1,5 +1,21 @@
 [
     {
+        "id": 14,
+        "type": "ISSUE",
+        "level": "MODERATE",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2023/06/03",
+        "datetime_end": "2023/06/30",
+        "zh_TW": {
+            "title": "關於近期電子發票下載失敗率高的狀況",
+            "content": "近期我們注意到發票同步失敗率上升的情況，由於發票資料是由財政部提供，我們僅協助與財政部的資料串接來簡化記帳步驟。而財政部於去年底開始會採取API限流的方式，儘管市面上有一些發票App可以順利下載發票，但財政部表示他們限制了API在特定時間內的流量，一旦達到上限，其他的Request就會被拒絕。作為第三方服務，我們無法控制資料來源端（例如：限流、斷線、停止服務等）的狀況。Hoya記帳先前已經實施了排程機制，從後端24小時嘗試下載發票及明細。然而在發票開獎期間（例如每月底至次月上旬），財政部系統負荷較高，導致發票下載失敗率增加。發票功能只是Hoya記帳服務的其中一項功能，但它依賴於外部資料來源。當然我們仍在持續優化發票下載的機制，但對於第三方服務來說，在這方面的優化受限。如果您非常需要穩定的發票同步來進行記帳，我們建議您考慮使用其他的發票工具，以滿足您對發票使用的需求。"
+        },
+        "en_US": {
+            "title": "Regarding the recent high failure rate of e-invoice downloads",
+            "content": "We have recently noticed an increase in the failure rate of invoice synchronization. As the invoice data is provided by the Ministry of Finance, our role is assisting in integrating the data to simplify the recording. However, since the end of last year, the Ministry of Finance has implemented API rate limiting. Although there are some invoice apps can successfully download invoices, the Ministry of Finance has stated that they restrict the flow of API requests within specific time periods, and once the limit is reached, other requests will be rejected. As a third-party service, we cannot control the conditions of the data source (such as rate limiting, disconnection, or service interruption).    Previously, Hoya Money had set up the scheduling job to attempt invoice and invoice detail downloads from the backend server in 24 hours. However, during the invoice lottery period (such as the end of each month to the beginning of the following month), the Ministry of Finance's system experiences higher load, resulting in an increased failure rate of invoice downloads.    The E-Invoice functionality is just one of the features of Hoya Money App, but it relies on external data sources. While we continue to optimize the invoice download mechanism, there are limitations for third-party services in this regard. If you require stable invoice synchronization for your recording needs, we suggest considering alternative invoice tools to meet your requirements."
+        }
+    },
+    {
         "id": 13,
         "type": "ISSUE",
         "level": "MODERATE",
