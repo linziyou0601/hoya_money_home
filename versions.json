@@ -1,5 +1,27 @@
 [
     {
+        "version": "1.4.9 (v10409.01.01)",
+        "release_date": "2023/07/29",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "優化程式碼",
+                    "更新相依性函式庫"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Optimize the code",
+                    "Update dependency api library"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.4.8 (v10408.01.01)",
         "release_date": "2022/12/24",
         "zh_TW": [
