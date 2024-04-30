@@ -1,5 +1,21 @@
 [
     {
+        "id": 15,
+        "type": "ISSUE",
+        "level": "NORMAL",
+        "scopes": ["PROD", "DEV"],
+        "datetime_start": "2024/04/30",
+        "datetime_end": "2024/05/31",
+        "zh_TW": {
+            "title": "關於雲端備份無法使用",
+            "content": "由於Google Api調整使用者權限同意請求，如果有發生「原本可以備份，但是近期無法備份、且無法顯示上次備份時間」的情況，可以採取以下做法重新取得Google權限：「點選匯出CSV至雲端(UTF-8)」會跳出新的Google Api同意視窗。並在取得同意後，請將「自動備份功能關閉，再重新開啟」即可。"
+        },
+        "en_US": {
+            "title": "About automatic cloud backup not working",
+            "content": "Due to the adjustment of Google API user permission requests, if there is a situation where \"you could back up before, but recently you cannot back up and cannot display the last backup time\", you can take the following steps to re-obtain Google permissions: \"Click on Export CSV to Cloud (UTF-8)\" will pop up a new Google API consent window. After obtaining consent, please \"turn off the automatic backup function, and then turn it back on\"."
+        }
+    },
+    {
         "id": 14,
         "type": "ISSUE",
         "level": "MODERATE",
