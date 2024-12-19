@@ -1,5 +1,25 @@
 [
     {
+        "version": "1.5.0 (v10500.01.02)",
+        "release_date": "2024/12/19",
+        "zh_TW": [
+            {
+                "type": "改進",
+                "list": [
+                    "更新相依性函式庫"
+                ]
+            }
+        ],
+        "en_US": [
+            {
+                "type": "IMPROVE",
+                "list": [
+                    "Update dependency api library"
+                ]
+            }
+        ]
+    },
+    {
         "version": "1.5.0 (v10500.01.01)",
         "release_date": "2024/07/24",
         "zh_TW": [
